@@ -1,0 +1,73 @@
+{
+  "id": "cot_nightshade",
+  "name": "Nightshade",
+  "faction": "Coalition of Thenion",
+  "cost": 22,
+  "limit": 1,
+  "size": "Medium",
+  "classes": ["Assassin", "Rogue"],
+  "stats": {
+    "STA": 2,
+    "SPD": 6,
+    "OFF": 17,
+    "DEF": 8,
+    "ACC": 10,
+    "INT": 13,
+    "AG": 16,
+    "T": 10,
+    "ARM": 1,
+    "HP": 1,
+    "M": 8
+  },
+  "traits": [],
+  "skills": [
+    "Dual-Wield",
+    "Infiltration II",
+    "Stealth II",
+    "Flicker"
+  ],
+  "combatArts": [
+    "Assassination IV"
+  ],
+  "spellcrafts": [],
+  "inventory": [
+    {
+      "name": "Mastercrafted Piercing Dagger",
+      "effect": "Armor-Piercing, +1 STK when used against a model in Crouched State.",
+      "pw": "T-2",
+      "rch": "0",
+      "stk": "STA+1",
+      "type": "Melee, Weapon",
+      "qty": 2,
+      "wgt": 0
+    }
+  ],
+  "stratagems": [
+    {
+      "name": "Exploiting Weakness",
+      "type": "Subterfuge",
+      "effect": "Unsuccessful Damage Rolls against target model may be rerolled once."
+    },
+    {
+      "name": "Guerrilla Tactics",
+      "type": "Authority",
+      "effect": "Assassins and Rogues gain the Hit and Retreat and Backstab skills."
+    },
+    {
+      "name": "Mastery of Poisons",
+      "type": "Authority",
+      "effect": "Attacks of Assassins and Rogues gain the Poison I Trait. Affected models that already have these, receive the Poison II Trait instead."
+    },
+    {
+      "name": "Swift Retreat",
+      "type": "Authority",
+      "effect": "During the End Phase when in the Active Role, Assassins and Rogues may perform a Normal Movement."
+    },
+    {
+      "name": "Unfavorable Terrain",
+      "type": "Subterfuge",
+      "effect": "Enemy models suffer -1 SPD."
+    }
+  ],
+  "special": null
+}

@@ -1,0 +1,43 @@
+{
+  "id": "sk_academy_expeditioner",
+  "name": "Academy Expeditioner",
+  "faction": "Sand Kingdoms",
+  "cost": 18,
+  "limit": 3,
+  "size": "Medium",
+  "classes": ["Sorcerer", "Mage"],
+  "stats": {
+    "STA": 2,
+    "SPD": 5,
+    "OFF": 10,
+    "DEF": 8,
+    "ACC": 8,
+    "INT": 14,
+    "AG": 10,
+    "T": 10,
+    "ARM": 4,
+    "HP": 2,
+    "M": 12
+  },
+  "traits": [
+    "Survival (Scorching)",
+    "Affinity (Elder)"
+  ],
+  "skills": [],
+  "combatArts": [],
+  "spellcrafts": ["Art of Sorcery III"],
+  "inventory": [
+    {
+      "name": "Dagger",
+      "effect": "Throwing. +1 STK when used against a model in Crouched State.",
+      "pw": "T-3",
+      "rch": "0",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 0
+    }
+  ],
+  "stratagems": [],
+  "special": null
+}

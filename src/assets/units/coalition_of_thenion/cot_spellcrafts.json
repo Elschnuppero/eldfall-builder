@@ -1,0 +1,108 @@
+{
+  "Succubi Magic I": {
+    "type": "Spellcraft",
+    "element": "Fire / Profane",
+    "spells": [
+      {
+        "element": "Fire",
+        "lvl": "I",
+        "name": "Fiery Fervor",
+        "effect": "Remove Weakened, Bleeding, Poisoned, Confused, Crippled, Blinded, Immobilized, Panicked, Petrified, Fatigued States from the model. It also gains +2 OFF, DEF.",
+        "pw": "-",
+        "type": "Spell, Enchantment, Ranged",
+        "rch": "16",
+        "stk": "1"
+      },
+      {
+        "element": "Fire",
+        "lvl": "I",
+        "name": "Unrelenting Zeal",
+        "effect": "When the enchanted model suffers a Wound, it may perform a M roll. If successful, that Wound is prevented and this Spell ends.",
+        "pw": "-",
+        "type": "Spell, Enchantment, Ranged",
+        "rch": "16",
+        "stk": "2"
+      },
+      {
+        "element": "Profane",
+        "lvl": "I",
+        "name": "Draining Impulse",
+        "effect": "[Mana Cost: 2] The enchanted model receives additional 2 Activation Points in the Active and Reactive role. After this Enchantment is removed, the model becomes Fatigued (State).",
+        "pw": "-",
+        "type": "Spell, Enchantment, Ranged",
+        "rch": "10",
+        "stk": "1"
+      },
+      {
+        "element": "Profane",
+        "lvl": "I",
+        "name": "Agony",
+        "effect": "The enchanted model must perform an INT roll at the beginning of each Activation or Reaction. On a failed roll, it loses 1 HP, and its Activation or Reaction ends. If a friendly model comes in Base Contact with the Enchanted model, this Enchantment ends.",
+        "pw": "-",
+        "type": "Spell, Enchantment, Ranged",
+        "rch": "Casting Aura",
+        "stk": "1"
+      }
+    ]
+  },
+  "Assassination I": {
+    "type": "Combat Art",
+    "levels": [
+      { "lvl": "I", "name": "Aiming for the Vitals", "effect": "User's Attack gains +6 PW." }
+    ]
+  },
+  "Assassination II": {
+    "type": "Combat Art",
+    "levels": [
+      { "lvl": "I", "name": "Aiming for the Vitals", "effect": "User's Attack gains +6 PW." },
+      { "lvl": "II", "name": "Cunning Precaution", "effect": "User's Attack gains Poison I Trait." }
+    ]
+  },
+  "Assassination III": {
+    "type": "Combat Art",
+    "levels": [
+      { "lvl": "I", "name": "Aiming for the Vitals", "effect": "User's Attack gains +6 PW." },
+      { "lvl": "II", "name": "Cunning Precaution", "effect": "User's Attack gains Poison I Trait." },
+      { "lvl": "III", "name": "Overwhelming Assault", "effect": "User's Attack gains +1 STK." }
+    ]
+  },
+  "Assassination IV": {
+    "type": "Combat Art",
+    "levels": [
+      { "lvl": "I", "name": "Aiming for the Vitals", "effect": "User's Attack gains +6 PW." },
+      { "lvl": "II", "name": "Cunning Precaution", "effect": "User's Attack gains Poison I Trait." },
+      { "lvl": "III", "name": "Overwhelming Assault", "effect": "User's Attack gains +1 STK." },
+      { "lvl": "IV", "name": "Decisive Blow", "effect": "In the Active Role, User's successful Attack rolls become Critical Hits." }
+    ]
+  },
+  "Fencing I": {
+    "type": "Combat Art",
+    "levels": [
+      { "lvl": "I", "name": "Masterful Parry", "effect": "Target's Melee Attack suffers -3 Modifier." }
+    ]
+  },
+  "Fencing II": {
+    "type": "Combat Art",
+    "levels": [
+      { "lvl": "I", "name": "Masterful Parry", "effect": "Target's Melee Attack suffers -3 Modifier." },
+      { "lvl": "II", "name": "Harsh Riposte", "effect": "Target's Melee Attack suffers -1 STK (cannot be reduced below 1)." }
+    ]
+  },
+  "Fencing III": {
+    "type": "Combat Art",
+    "levels": [
+      { "lvl": "I", "name": "Masterful Parry", "effect": "Target's Melee Attack suffers -3 Modifier." },
+      { "lvl": "II", "name": "Harsh Riposte", "effect": "Target's Melee Attack suffers -1 STK (cannot be reduced below 1)." },
+      { "lvl": "III", "name": "Second Wind", "effect": "User's Melee Attack gains +1 STK." }
+    ]
+  },
+  "Fencing IV": {
+    "type": "Combat Art",
+    "levels": [
+      { "lvl": "I", "name": "Masterful Parry", "effect": "Target's Melee Attack suffers -3 Modifier." },
+      { "lvl": "II", "name": "Harsh Riposte", "effect": "Target's Melee Attack suffers -1 STK (cannot be reduced below 1)." },
+      { "lvl": "III", "name": "Second Wind", "effect": "User's Melee Attack gains +1 STK." },
+      { "lvl": "IV", "name": "Grapple & Thrash", "effect": "User's Melee Attack gains Knockdown." }
+    ]
+  }
+}

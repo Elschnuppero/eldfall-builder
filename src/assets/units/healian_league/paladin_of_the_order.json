@@ -1,0 +1,78 @@
+{
+  "id": "hl_paladin",
+  "name": "Paladin of the Order",
+  "faction": "Helian League",
+  "cost": 22,
+  "limit": 2,
+  "size": "Medium",
+  "classes": ["Mystic", "Soldier"],
+  "stats": {
+    "STA": 2,
+    "SPD": 5,
+    "OFF": 14,
+    "DEF": 14,
+    "ACC": 10,
+    "INT": 12,
+    "AG": 10,
+    "T": 12,
+    "ARM": 6,
+    "HP": 2,
+    "M": 15
+  },
+  "traits": [
+    "Affinity (Divine)",
+    "Fearless"
+  ],
+  "skills": [],
+  "combatArts": [
+    "Fencing II"
+  ],
+  "spellcrafts": [
+    "Hieromancy I"
+  ],
+  "inventory": [
+    {
+      "name": "Banner Lance",
+      "effect": "Two Handed.",
+      "pw": "T+2",
+      "rch": "2",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 2
+    },
+    {
+      "name": "Sword",
+      "effect": "-",
+      "pw": "T",
+      "rch": "1",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 1
+    },
+    {
+      "name": "Empyrean Standard",
+      "effect": "Models within the wearer's Awareness gain Fearless and ignore the effects of the Confused and Weakened States.",
+      "pw": "-",
+      "rch": "-",
+      "stk": "-",
+      "type": "Accessory",
+      "qty": 1,
+      "wgt": 0
+    }
+  ],
+  "stratagems": [
+    {
+      "name": "Sacred Vow",
+      "type": "Authority",
+      "effect": "Remove all enemy Enchantments from the target. The target cannot be affected by enemy Enchantments until your next Strategic Phase."
+    },
+    {
+      "name": "Solemn Presence",
+      "type": "Authority",
+      "effect": "Soldiers gain Vigilance."
+    }
+  ],
+  "special": null
+}

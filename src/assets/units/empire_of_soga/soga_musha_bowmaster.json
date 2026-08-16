@@ -1,0 +1,66 @@
+{
+  "id": "soga_musha_bowmaster",
+  "name": "Musha Bowmaster",
+  "faction": "Empire of Soga",
+  "cost": 19,
+  "limit": 2,
+  "size": "Medium",
+  "classes": ["Warrior", "Marksman"],
+  "stats": {
+    "STA": 2,
+    "SPD": 5,
+    "OFF": 12,
+    "DEF": 12,
+    "ACC": 14,
+    "INT": 10,
+    "AG": 11,
+    "T": 13,
+    "ARM": 2,
+    "HP": 2,
+    "M": 17
+  },
+  "traits": [
+    "Duelist",
+    "Resourceful I"
+  ],
+  "skills": [],
+  "combatArts": [
+    "Fencing I",
+    "Archery III"
+  ],
+  "spellcrafts": [],
+  "inventory": [
+    {
+      "name": "Bow",
+      "effect": "Two-Handed.",
+      "pw": "T+3",
+      "rch": "0-24: 0 / 25-48: -6",
+      "stk": "STA-1",
+      "type": "Ranged, Weapon",
+      "qty": 1,
+      "wgt": 2
+    },
+    {
+      "name": "Sword",
+      "effect": "-",
+      "pw": "T",
+      "rch": "1",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 1
+    },
+    {
+      "name": "Dagger",
+      "effect": "Throwing. +1 STK when used against a model in Crouched State.",
+      "pw": "T-3",
+      "rch": "0",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 0
+    }
+  ],
+  "stratagems": [],
+  "special": null
+}

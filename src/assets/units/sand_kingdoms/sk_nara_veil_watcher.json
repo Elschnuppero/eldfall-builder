@@ -1,0 +1,66 @@
+{
+  "id": "sk_nara_veil_watcher",
+  "name": "Na'ra, Veil Watcher",
+  "faction": "Sand Kingdoms",
+  "cost": 28,
+  "limit": 1,
+  "size": "Medium",
+  "classes": ["Artificer"],
+  "stats": {
+    "STA": 2,
+    "SPD": 7,
+    "OFF": 15,
+    "DEF": 12,
+    "ACC": 8,
+    "INT": 13,
+    "AG": 13,
+    "T": 12,
+    "ARM": 0,
+    "HP": 2,
+    "M": 14
+  },
+  "traits": [
+    "Acute Senses",
+    "Affinity (Profane)",
+    "Survival (Scorching, Dark)"
+  ],
+  "skills": [
+    "Stealth I",
+    "Hit and Retreat",
+    "Leap",
+    "Dash",
+    "Climbing"
+  ],
+  "combatArts": [],
+  "spellcrafts": ["Necromancy III"],
+  "inventory": [
+    {
+      "name": "Chimera Claws",
+      "effect": "Gain +1 STK when attacking a target without AP.",
+      "pw": "T",
+      "rch": "0",
+      "stk": "STA",
+      "type": "Natural and Melee, Weapon",
+      "qty": 1,
+      "wgt": "-"
+    }
+  ],
+  "stratagems": [
+    {
+      "name": "Adrenaline Rush",
+      "type": "Authority",
+      "effect": "Target self. In the Active Role, gain 1 additional AP but become Fatigued until your next Strategic Phase."
+    },
+    {
+      "name": "Ironhide",
+      "type": "Authority",
+      "effect": "Target self. Gain +3 ARM."
+    },
+    {
+      "name": "Reinforced Claws",
+      "type": "Authority",
+      "effect": "Target self. Gain Armor-Piercing on Melee Attacks."
+    }
+  ],
+  "special": null
+}

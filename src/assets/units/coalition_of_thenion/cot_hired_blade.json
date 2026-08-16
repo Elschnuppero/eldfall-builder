@@ -1,0 +1,56 @@
+{
+  "id": "cot_hired_blade",
+  "name": "Hired Blade",
+  "faction": "Coalition of Thenion",
+  "cost": 17,
+  "limit": 3,
+  "size": "Medium",
+  "classes": ["Assassin", "Rogue"],
+  "stats": {
+    "STA": 2,
+    "SPD": 6,
+    "OFF": 15,
+    "DEF": 8,
+    "ACC": 10,
+    "INT": 10,
+    "AG": 14,
+    "T": 10,
+    "ARM": 1,
+    "HP": 1,
+    "M": 8
+  },
+  "traits": [],
+  "skills": [
+    "Stealth II",
+    "Infiltration II",
+    "Dual-Wield"
+  ],
+  "combatArts": [
+    "Assassination I"
+  ],
+  "spellcrafts": [],
+  "inventory": [
+    {
+      "name": "Short Sword",
+      "effect": "-",
+      "pw": "T",
+      "rch": "0",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 1
+    },
+    {
+      "name": "Dagger",
+      "effect": "Throwing. +1 STK when used against a model in Crouched State.",
+      "pw": "T-3",
+      "rch": "0",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 2,
+      "wgt": 0
+    }
+  ],
+  "stratagems": [],
+  "special": null
+}

@@ -1,0 +1,53 @@
+{
+  "id": "hl_anari",
+  "name": "Anari, Erudite Prodigy",
+  "faction": "Helian League",
+  "cost": 28,
+  "limit": 1,
+  "size": "Medium",
+  "classes": ["Enchanter", "Mage"],
+  "stats": {
+    "STA": 2,
+    "SPD": 5,
+    "OFF": 9,
+    "DEF": 9,
+    "ACC": 8,
+    "INT": 16,
+    "AG": 12,
+    "T": 8,
+    "ARM": 3,
+    "HP": 2,
+    "M": 12
+  },
+  "traits": [
+    "Affinity (Fire, Water)",
+    "Strategist"
+  ],
+  "skills": [
+    "Foresight"
+  ],
+  "combatArts": [],
+  "spellcrafts": [
+    "Art of Enchanting III",
+    "Cryomancy III"
+  ],
+  "inventory": [],
+  "stratagems": [
+    {
+      "name": "Active Support",
+      "type": "Authority",
+      "effect": "Up to two models may become enchanted with one of the Enchantment Spells available to the Leader."
+    },
+    {
+      "name": "Talented Command",
+      "type": "Authority",
+      "effect": "Target model gains Chain Attack."
+    },
+    {
+      "name": "Weavers Aura",
+      "type": "Authority",
+      "effect": "Spell Attacks cast by allies gain +2 PW."
+    }
+  ],
+  "special": null
+}

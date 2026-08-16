@@ -1,0 +1,76 @@
+{
+  "id": "soga_seigen",
+  "name": "Seigen, of the Keshobarai",
+  "faction": "Empire of Soga",
+  "cost": 28,
+  "limit": 1,
+  "size": "Medium",
+  "classes": ["Sentinel", "Ranger"],
+  "stats": {
+    "STA": 2,
+    "SPD": 5,
+    "OFF": 14,
+    "DEF": 16,
+    "ACC": 12,
+    "INT": 13,
+    "AG": 11,
+    "T": 13,
+    "ARM": 6,
+    "HP": 3,
+    "M": 17
+  },
+  "traits": [
+    "Fearless",
+    "Resistance (Spells, Profane) I",
+    "Vigilance"
+  ],
+  "skills": [
+    "Finishing Strike",
+    "Impede",
+    "Protector"
+  ],
+  "combatArts": [
+    "Fencing IV"
+  ],
+  "spellcrafts": [],
+  "inventory": [
+    {
+      "name": "Stonesplitter",
+      "effect": "Bleed, Sweep I, Two Handed.",
+      "pw": "T+2",
+      "rch": "2",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 3
+    },
+    {
+      "name": "Sealing Javelins",
+      "effect": "If this item hits a model with Incorporeal or Undead Trait, it automatically suffers 2 Wounds (no DMG roll necessary).",
+      "pw": "T",
+      "rch": "T",
+      "stk": "QTY",
+      "type": "Ranged, Consumable",
+      "qty": 2,
+      "wgt": 1
+    }
+  ],
+  "stratagems": [
+    {
+      "name": "Hunter Tactics",
+      "type": "Authority",
+      "effect": "Target model may perform Walk during its End Phase."
+    },
+    {
+      "name": "Stalwart Defenders",
+      "type": "Authority",
+      "effect": "Target model gains Protector and Vigilance until your next Strategic Phase."
+    },
+    {
+      "name": "Overcome Pain",
+      "type": "Authority",
+      "effect": "Target Warrior not in Incapacitated State may regain 1 HP."
+    }
+  ],
+  "special": null
+}

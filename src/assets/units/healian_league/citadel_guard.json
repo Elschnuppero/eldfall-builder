@@ -1,0 +1,68 @@
+{
+  "id": "hl_citadel_guard",
+  "name": "Citadel Guard",
+  "faction": "Helian League",
+  "cost": 18,
+  "limit": 2,
+  "size": "Medium",
+  "classes": ["Sentinel", "Soldier"],
+  "stats": {
+    "STA": 2,
+    "SPD": 4,
+    "OFF": 12,
+    "DEF": 16,
+    "ACC": 8,
+    "INT": 12,
+    "AG": 10,
+    "T": 12,
+    "ARM": 6,
+    "HP": 2,
+    "M": 14
+  },
+  "traits": [
+    "Vigilance",
+    "Resistance (Sorcery, Enchantment) II"
+  ],
+  "skills": [
+    "Protector",
+    "Follow Up"
+  ],
+  "combatArts": [
+    "Fencing I"
+  ],
+  "spellcrafts": [],
+  "inventory": [
+    {
+      "name": "Small Bludgeon",
+      "effect": "Armor-Piercing, Stun.",
+      "pw": "T+3",
+      "rch": "0",
+      "stk": "STA-1",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 2
+    },
+    {
+      "name": "Short Sword",
+      "effect": "-",
+      "pw": "T",
+      "rch": "0",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 1
+    },
+    {
+      "name": "Shield",
+      "effect": "-3 to incoming Melee Attacks to the Front, +3 ARM against Ranged Attacks to the Front.",
+      "pw": "T",
+      "rch": "0",
+      "stk": "1",
+      "type": "Melee, Shield",
+      "qty": 1,
+      "wgt": 2
+    }
+  ],
+  "stratagems": [],
+  "special": null
+}

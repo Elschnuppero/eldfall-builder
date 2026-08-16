@@ -1,0 +1,59 @@
+{
+  "id": "hl_helrin_expatriate",
+  "name": "Helrin Expatriate",
+  "faction": "Helian League",
+  "cost": 16,
+  "limit": 3,
+  "size": "Medium",
+  "classes": ["Artificer", "Ranger"],
+  "stats": {
+    "STA": 2,
+    "SPD": 5,
+    "OFF": 13,
+    "DEF": 13,
+    "ACC": 8,
+    "INT": 10,
+    "AG": 10,
+    "T": 12,
+    "ARM": 6,
+    "HP": 2,
+    "M": 16
+  },
+  "traits": [
+    "Affinity (Fire)",
+    "Survival (Difficult, Forest)",
+    "Resourceful II"
+  ],
+  "skills": [
+    "Chain Attack",
+    "Impede"
+  ],
+  "combatArts": [],
+  "spellcrafts": [
+    "Art of Enchanting II"
+  ],
+  "inventory": [
+    {
+      "name": "Sword",
+      "effect": "-",
+      "pw": "T",
+      "rch": "1",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 1
+    },
+    {
+      "name": "Dagger",
+      "effect": "Throwing. +1 STK when used against a model in Crouched State.",
+      "pw": "T-3",
+      "rch": "0",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 0
+    }
+  ],
+  "stratagems": [],
+  "special": null
+}

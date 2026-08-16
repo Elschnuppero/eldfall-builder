@@ -1,0 +1,57 @@
+{
+  "id": "sk_vizier_of_conjurations",
+  "name": "Vizier of Conjurations",
+  "faction": "Sand Kingdoms",
+  "cost": 22,
+  "limit": 1,
+  "size": "Medium",
+  "classes": ["Mage", "Summoner"],
+  "stats": {
+    "STA": 2,
+    "SPD": 5,
+    "OFF": 8,
+    "DEF": 8,
+    "ACC": 8,
+    "INT": 16,
+    "AG": 10,
+    "T": 8,
+    "ARM": 0,
+    "HP": 1,
+    "M": 8
+  },
+  "traits": [
+    "Resourceful II",
+    "Affinity (Elder, Earth)"
+  ],
+  "skills": [],
+  "combatArts": [],
+  "spellcrafts": [
+    "Art of Conjuration IV",
+    "Wizardry I"
+  ],
+  "inventory": [
+    {
+      "name": "Staff of Conjuration",
+      "effect": "When Wearer summons creatures, it can place them anywhere within its Awareness.",
+      "pw": "-",
+      "rch": "-",
+      "stk": "-",
+      "type": "Accessory",
+      "qty": 1,
+      "wgt": 2
+    }
+  ],
+  "stratagems": [
+    {
+      "name": "Temporary Bind",
+      "type": "Authority",
+      "effect": "Summoning Limit of the target summoned creature on the field is reduced to 0."
+    },
+    {
+      "name": "Refined Conjuration",
+      "type": "Authority",
+      "effect": "Mana Cost of Conjuration Spells is reduced by 1."
+    }
+  ],
+  "special": null
+}

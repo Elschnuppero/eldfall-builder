@@ -1,0 +1,57 @@
+{
+  "id": "hl_hierophant",
+  "name": "Expeditionary Hierophant",
+  "faction": "Helian League",
+  "cost": 23,
+  "limit": 1,
+  "size": "Medium",
+  "classes": ["Mage", "Vitalist"],
+  "stats": {
+    "STA": 2,
+    "SPD": 5,
+    "OFF": 8,
+    "DEF": 8,
+    "ACC": 8,
+    "INT": 15,
+    "AG": 11,
+    "T": 8,
+    "ARM": 4,
+    "HP": 1,
+    "M": 12
+  },
+  "traits": [
+    "Affinity (Divine)"
+  ],
+  "skills": [
+    "Clairvoyance"
+  ],
+  "combatArts": [],
+  "spellcrafts": [
+    "Hieromancy IV"
+  ],
+  "inventory": [
+    {
+      "name": "Staff of Light",
+      "effect": "When casting a Divine Spell in the Active Role, the wearer may re-roll 1 die.",
+      "pw": "-",
+      "rch": "-",
+      "stk": "-",
+      "type": "Accessory",
+      "qty": 1,
+      "wgt": 2
+    }
+  ],
+  "stratagems": [
+    {
+      "name": "Nursing Aura",
+      "type": "Authority",
+      "effect": "Select up to 3 models. Each may regain 1 HP. If an Incapacitated model is selected, the leader must perform a successful INT roll in order for it to regain 1 HP."
+    },
+    {
+      "name": "Spiritual Paragon",
+      "type": "Authority",
+      "effect": "All models gain +4 M."
+    }
+  ],
+  "special": null
+}

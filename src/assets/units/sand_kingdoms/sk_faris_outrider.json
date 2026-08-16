@@ -1,0 +1,67 @@
+{
+  "id": "sk_faris_outrider",
+  "name": "Faris Outrider",
+  "faction": "Sand Kingdoms",
+  "cost": 18,
+  "limit": 3,
+  "size": "Medium",
+  "classes": ["Artificer", "Rogue"],
+  "stats": {
+    "STA": 2,
+    "SPD": 5,
+    "OFF": 14,
+    "DEF": 11,
+    "ACC": 8,
+    "INT": 13,
+    "AG": 12,
+    "T": 13,
+    "ARM": 1,
+    "HP": 2,
+    "M": 12
+  },
+  "traits": [
+    "Affinity (Elder)",
+    "Survival (Scorching)"
+  ],
+  "skills": [
+    "Stealth I",
+    "Follow Up",
+    "Taunt"
+  ],
+  "combatArts": [],
+  "spellcrafts": ["Art of Enchanting III"],
+  "inventory": [
+    {
+      "name": "Sword",
+      "effect": "-",
+      "pw": "T",
+      "rch": "1",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 1
+    },
+    {
+      "name": "Arcane Lantern",
+      "effect": "The wearer gains Vigilance. Shrouded and Intrigue States within the Wearer's Awareness are canceled.",
+      "pw": "T",
+      "rch": "-",
+      "stk": "-",
+      "type": "Melee, Accessory",
+      "qty": 1,
+      "wgt": 1
+    },
+    {
+      "name": "Dagger",
+      "effect": "Throwing. +1 STK when used against a model in Crouched State.",
+      "pw": "T-3",
+      "rch": "0",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 0
+    }
+  ],
+  "stratagems": [],
+  "special": null
+}

@@ -1,0 +1,66 @@
+{
+  "id": "soga_musha_blademaster",
+  "name": "Musha Blademaster",
+  "faction": "Empire of Soga",
+  "cost": 17,
+  "limit": 3,
+  "size": "Medium",
+  "classes": ["Warrior", "Berserker"],
+  "stats": {
+    "STA": 2,
+    "SPD": 5,
+    "OFF": 14,
+    "DEF": 12,
+    "ACC": 12,
+    "INT": 10,
+    "AG": 11,
+    "T": 13,
+    "ARM": 2,
+    "HP": 2,
+    "M": 17
+  },
+  "traits": [
+    "Resourceful I",
+    "Duelist"
+  ],
+  "skills": [],
+  "combatArts": [
+    "Fencing III",
+    "Archery I"
+  ],
+  "spellcrafts": [],
+  "inventory": [
+    {
+      "name": "Sword",
+      "effect": "-",
+      "pw": "T",
+      "rch": "1",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 1
+    },
+    {
+      "name": "Bow",
+      "effect": "Two-Handed.",
+      "pw": "T+3",
+      "rch": "0-24: 0 / 25-48: -6",
+      "stk": "STA-1",
+      "type": "Ranged, Weapon",
+      "qty": 1,
+      "wgt": 2
+    },
+    {
+      "name": "Dagger",
+      "effect": "Throwing. +1 STK when used against a model in Crouched State.",
+      "pw": "T-3",
+      "rch": "0",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 0
+    }
+  ],
+  "stratagems": [],
+  "special": null
+}

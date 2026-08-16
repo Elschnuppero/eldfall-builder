@@ -1,0 +1,35 @@
+{
+  "id": "hl_flameshaper",
+  "name": "Flameshaper",
+  "faction": "Helian League",
+  "cost": 15,
+  "limit": 3,
+  "size": "Medium",
+  "classes": ["Soldier", "Sorcerer"],
+  "stats": {
+    "STA": 2,
+    "SPD": 6,
+    "OFF": 8,
+    "DEF": 8,
+    "ACC": 8,
+    "INT": 12,
+    "AG": 12,
+    "T": 8,
+    "ARM": 1,
+    "HP": 1,
+    "M": 12
+  },
+  "traits": [
+    "Affinity (Fire)"
+  ],
+  "skills": [
+    "Chain Attack"
+  ],
+  "combatArts": [],
+  "spellcrafts": [
+    "Art of Sorcery II"
+  ],
+  "inventory": [],
+  "stratagems": [],
+  "special": null
+}

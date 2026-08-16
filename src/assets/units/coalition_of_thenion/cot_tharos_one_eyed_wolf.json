@@ -1,0 +1,96 @@
+{
+  "id": "cot_tharos",
+  "name": "Tharos, One-Eyed Wolf",
+  "faction": "Coalition of Thenion",
+  "cost": 28,
+  "limit": 1,
+  "size": "Medium",
+  "classes": ["Alchemist", "Rogue"],
+  "stats": {
+    "STA": 2,
+    "SPD": 6,
+    "OFF": 13,
+    "DEF": 10,
+    "ACC": 14,
+    "INT": 13,
+    "AG": 13,
+    "T": 12,
+    "ARM": 3,
+    "HP": 2,
+    "M": 12
+  },
+  "traits": [
+    "Survival (Difficult, Hazy)",
+    "Tactician"
+  ],
+  "skills": [
+    "Clairvoyance",
+    "Climbing",
+    "Stealth II",
+    "Snipe"
+  ],
+  "combatArts": [
+    "Assassination III"
+  ],
+  "spellcrafts": [],
+  "inventory": [
+    {
+      "name": "Crossbow",
+      "effect": "Two-Handed.",
+      "pw": "13",
+      "rch": "0-24: +3 / 25-48: -3",
+      "stk": "1",
+      "type": "Ranged, Weapon",
+      "qty": 1,
+      "wgt": 2
+    },
+    {
+      "name": "Short Sword",
+      "effect": "-",
+      "pw": "T",
+      "rch": "0",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 1
+    },
+    {
+      "name": "Firecracker",
+      "effect": "Stagger, Targetless.",
+      "pw": "0",
+      "rch": "T, AOE: Circular S",
+      "stk": "1",
+      "type": "Ranged, Consumable",
+      "qty": 1,
+      "wgt": 1
+    },
+    {
+      "name": "Grapeshot",
+      "effect": "Targetless.",
+      "pw": "13",
+      "rch": "T, AOE: Circular S",
+      "stk": "1",
+      "type": "Ranged, Consumable",
+      "qty": 1,
+      "wgt": 1
+    }
+  ],
+  "stratagems": [
+    {
+      "name": "Mastery of Poisons",
+      "type": "Authority",
+      "effect": "Attacks of Assassins and Rogues gain the Poison I Trait. Affected models that already have these, receive the Poison II Trait instead."
+    },
+    {
+      "name": "Guerrilla Tactics",
+      "type": "Authority",
+      "effect": "Assassins and Rogues gain the Hit and Retreat and Backstab skills."
+    },
+    {
+      "name": "Piercing Perception",
+      "type": "Subterfuge",
+      "effect": "Cancel enemy Taunt Skills. Remove Shrouded State of one target."
+    }
+  ],
+  "special": null
+}

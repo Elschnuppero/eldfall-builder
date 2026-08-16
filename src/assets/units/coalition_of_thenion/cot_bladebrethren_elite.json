@@ -1,0 +1,76 @@
+{
+  "id": "cot_bladebrethren_elite",
+  "name": "Bladebrethren Elite",
+  "faction": "Coalition of Thenion",
+  "cost": 23,
+  "limit": 2,
+  "size": "Medium",
+  "classes": ["Rogue", "Warrior"],
+  "stats": {
+    "STA": 2,
+    "SPD": 6,
+    "OFF": 16,
+    "DEF": 13,
+    "ACC": 11,
+    "INT": 11,
+    "AG": 14,
+    "T": 12,
+    "ARM": 3,
+    "HP": 2,
+    "M": 12
+  },
+  "traits": [
+    "Duelist",
+    "Resourceful I"
+  ],
+  "skills": [
+    "Dual-Wield",
+    "Dash",
+    "Follow Up",
+    "Stealth I"
+  ],
+  "combatArts": [
+    "Fencing III"
+  ],
+  "spellcrafts": [],
+  "inventory": [
+    {
+      "name": "Mastercrafted Sword",
+      "effect": "Once per Activation or Reaction, the user may reroll 1 Attack roll.",
+      "pw": "T",
+      "rch": "1",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 1
+    },
+    {
+      "name": "Parrying Dagger",
+      "effect": "The target's Melee Attacks suffer a -2 mod. When used against a model in Crouched State, gain +1 STK.",
+      "pw": "T-2",
+      "rch": "0",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 0
+    }
+  ],
+  "stratagems": [
+    {
+      "name": "Dishearten",
+      "type": "Subterfuge",
+      "effect": "Target 1 enemy in LoS, it must perform a halved M roll. On fail, it loses 1 Activation Point every turn, until your next Strategic Phase."
+    },
+    {
+      "name": "Guerrilla Tactics",
+      "type": "Authority",
+      "effect": "Assassins and Rogues gain the Hit and Retreat and Backstab skills."
+    },
+    {
+      "name": "Vicious Opportunism",
+      "type": "Authority",
+      "effect": "Attacks by friendly models against Crouched models may reroll 1 Attack roll, gain +6 PW and Cleave."
+    }
+  ],
+  "special": null
+}

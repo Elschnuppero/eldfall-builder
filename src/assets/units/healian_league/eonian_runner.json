@@ -1,0 +1,60 @@
+{
+  "id": "hl_eonian_runner",
+  "name": "Eonian Runner",
+  "faction": "Helian League",
+  "cost": 17,
+  "limit": 3,
+  "size": "Medium",
+  "classes": ["Ranger"],
+  "stats": {
+    "STA": 2,
+    "SPD": 6,
+    "OFF": 12,
+    "DEF": 10,
+    "ACC": 14,
+    "INT": 8,
+    "AG": 12,
+    "T": 13,
+    "ARM": 3,
+    "HP": 2,
+    "M": 12
+  },
+  "traits": [],
+  "skills": [],
+  "combatArts": [],
+  "spellcrafts": [],
+  "inventory": [
+    {
+      "name": "Short Sword",
+      "effect": "-",
+      "pw": "T",
+      "rch": "0",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 1
+    },
+    {
+      "name": "Javelin",
+      "effect": "Stun.",
+      "pw": "T+2",
+      "rch": "T",
+      "stk": "2",
+      "type": "Ranged, Consumable",
+      "qty": 4,
+      "wgt": 1
+    },
+    {
+      "name": "Light Shield",
+      "effect": "-2 to incoming Melee Attacks to Front, +2 ARM against Ranged Attacks to the Front.",
+      "pw": "-",
+      "rch": "0",
+      "stk": "-",
+      "type": "Melee, Shield",
+      "qty": 1,
+      "wgt": 1
+    }
+  ],
+  "stratagems": [],
+  "special": null
+}

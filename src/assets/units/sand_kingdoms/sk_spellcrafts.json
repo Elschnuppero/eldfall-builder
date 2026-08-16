@@ -1,0 +1,237 @@
+{
+  "Art of Sorcery I": {
+    "type": "Spellcraft",
+    "element": "Elder / Fire",
+    "spells": [
+      { "element": "Elder", "lvl": "I", "name": "Arcane Bolt",       "effect": "Critical: Knockdown.",                                                                                                  "pw": "INT",   "type": "Spell, Sorcery, Ranged",               "rch": "16",            "stk": "STA" },
+      { "element": "Fire",  "lvl": "I", "name": "Ignite",            "effect": "Burn 1.",                                                                                                              "pw": "INT",   "type": "Spell, Sorcery, Ranged",               "rch": "16",            "stk": "STA" }
+    ]
+  },
+  "Art of Sorcery II": {
+    "type": "Spellcraft",
+    "element": "Elder / Fire",
+    "spells": [
+      { "element": "Elder", "lvl": "I",  "name": "Arcane Bolt",       "effect": "Critical: Knockdown.",                                                                                                "pw": "INT",   "type": "Spell, Sorcery, Ranged",               "rch": "16",            "stk": "STA" },
+      { "element": "Elder", "lvl": "II", "name": "Telekinetic Blast", "effect": "Knockback 3; Knockdown.",                                                                                            "pw": "INT-3", "type": "Spell, Sorcery, Ranged",               "rch": "AOE: Spray L",  "stk": "1"   },
+      { "element": "Fire",  "lvl": "I",  "name": "Ignite",            "effect": "Burn 1.",                                                                                                            "pw": "INT",   "type": "Spell, Sorcery, Ranged",               "rch": "16",            "stk": "STA" },
+      { "element": "Fire",  "lvl": "II", "name": "Flare",             "effect": "Sweep II; Burn 2.",                                                                                                  "pw": "INT",   "type": "Spell, Sorcery, Melee and Ranged",     "rch": "3",             "stk": "1"   }
+    ]
+  },
+  "Art of Sorcery III": {
+    "type": "Spellcraft",
+    "element": "Elder / Fire",
+    "spells": [
+      { "element": "Elder", "lvl": "I",   "name": "Arcane Bolt",       "effect": "Critical: Knockdown.",                                                                                              "pw": "INT",   "type": "Spell, Sorcery, Ranged",               "rch": "16",            "stk": "STA" },
+      { "element": "Elder", "lvl": "II",  "name": "Telekinetic Blast", "effect": "Knockback 3; Knockdown.",                                                                                          "pw": "INT-3", "type": "Spell, Sorcery, Ranged",               "rch": "AOE: Spray L",  "stk": "1"   },
+      { "element": "Elder", "lvl": "III", "name": "Soul Crush",        "effect": "Stun, Ignore Armor. If wounded, the target becomes Panicked State until caster's next End phase.",                "pw": "INT",   "type": "Spell, Sorcery, Ranged",               "rch": "16",            "stk": "1"   },
+      { "element": "Fire",  "lvl": "I",   "name": "Ignite",            "effect": "Burn 1.",                                                                                                          "pw": "INT",   "type": "Spell, Sorcery, Ranged",               "rch": "16",            "stk": "STA" },
+      { "element": "Fire",  "lvl": "II",  "name": "Flare",             "effect": "Sweep II; Burn 2.",                                                                                                "pw": "INT",   "type": "Spell, Sorcery, Melee and Ranged",     "rch": "3",             "stk": "1"   },
+      { "element": "Fire",  "lvl": "III", "name": "Fireball",          "effect": "Targetless; Burn 1.",                                                                                              "pw": "INT",   "type": "Spell, Sorcery, Ranged",               "rch": "16, AoE: Circular L", "stk": "1" }
+    ]
+  },
+  "Art of Enchanting I": {
+    "type": "Spellcraft",
+    "element": "Elder / Fire / Air / Water",
+    "spells": [
+      { "element": "Elder", "lvl": "I", "name": "Arcane Shield",    "effect": "Enchanted model gains +4 to its ARM value (max 6). Critical Hits scored against this model do not ignore ARM.", "pw": "-", "type": "Spell, Enchantment, Ranged", "rch": "16", "stk": "1" }
+    ]
+  },
+  "Art of Enchanting II": {
+    "type": "Spellcraft",
+    "element": "Elder / Fire / Air / Water",
+    "spells": [
+      { "element": "Elder", "lvl": "I",  "name": "Arcane Shield",   "effect": "Enchanted model gains +4 to its ARM value (max 6). Critical Hits scored against this model do not ignore ARM.",                                                                                          "pw": "-", "type": "Spell, Enchantment, Ranged",               "rch": "16", "stk": "1" },
+      { "element": "Elder", "lvl": "II", "name": "Spectral Blade",  "effect": "Target gains: Ignore Armor and Stagger.",                                                                                                                                                                 "pw": "*", "type": "Spell, Enchantment, Ranged",               "rch": "16", "stk": "1" },
+      { "element": "Fire",  "lvl": "I",  "name": "Burning Touch",   "effect": "Target gains: Sweep I; Burn 1. Enchanted model may declare Assist Action and remove Bleeding State from an allied model in Base Contact.",                                                               "pw": "/", "type": "Spell, Enchantment, Melee and Ranged",      "rch": "16", "stk": "1" },
+      { "element": "Fire",  "lvl": "II", "name": "Melting Touch",   "effect": "Target gains: Ignore Armor; Burn 1.",                                                                                                                                                                    "pw": "*", "type": "Spell, Enchantment, Ranged",               "rch": "16", "stk": "1" },
+      { "element": "Air",   "lvl": "I",  "name": "Formless Edge",   "effect": "The enchanted model's Melee Attacks gain +2 RCH and Knockback 2.",                                                                                                                                      "pw": "*", "type": "Spell, Enchantment, Ranged",               "rch": "16", "stk": "1" },
+      { "element": "Air",   "lvl": "II", "name": "Featherlight",    "effect": "Target gains +2 SPD.",                                                                                                                                                                                   "pw": "-", "type": "Spell, Enchantment, Ranged",               "rch": "16", "stk": "1" },
+      { "element": "Water", "lvl": "I",  "name": "Cutting Chill",   "effect": "Enchanted model's Melee Attacks gain +2 PW. When the enchanted model hits a target with a Melee Attack, the target becomes Immobilized State.",                                                         "pw": "*", "type": "Spell, Enchantment, Ranged",               "rch": "16", "stk": "1" },
+      { "element": "Water", "lvl": "II", "name": "Mirror Bubble",   "effect": "When the enchanted model suffers a Hit from a Melee Attack, the attacker must perform an AG roll. If it fails, the attacker suffers a STK 1 Hit with PW equal to its own Attack. Enchantment removed.", "pw": "*", "type": "Spell, Enchantment, Ranged",               "rch": "10", "stk": "1" }
+    ]
+  },
+  "Art of Enchanting III": {
+    "type": "Spellcraft",
+    "element": "Elder / Fire / Air / Water",
+    "spells": [
+      { "element": "Elder", "lvl": "I",   "name": "Arcane Shield",         "effect": "Enchanted model gains +4 to its ARM value (max 6). Critical Hits scored against this model do not ignore ARM.",                                                                                        "pw": "-", "type": "Spell, Enchantment, Ranged",          "rch": "16", "stk": "1" },
+      { "element": "Elder", "lvl": "II",  "name": "Spectral Blade",        "effect": "Target gains: Ignore Armor and Stagger.",                                                                                                                                                               "pw": "*", "type": "Spell, Enchantment, Ranged",          "rch": "16", "stk": "1" },
+      { "element": "Elder", "lvl": "III", "name": "Hasten",                "effect": "During the Strategic Phase, the enchanted model may perform a Normal Movement and then remove the enchantment.",                                                                                        "pw": "-", "type": "Spell, Enchantment, Ranged",          "rch": "16", "stk": "1" },
+      { "element": "Fire",  "lvl": "I",   "name": "Burning Touch",         "effect": "Target gains: Sweep I; Burn 1. Enchanted model may declare Assist Action and remove Bleeding State from an allied model in Base Contact.",                                                             "pw": "/", "type": "Spell, Enchantment, Melee and Ranged", "rch": "16", "stk": "1" },
+      { "element": "Fire",  "lvl": "II",  "name": "Melting Touch",         "effect": "Target gains: Ignore Armor; Burn 1.",                                                                                                                                                                  "pw": "*", "type": "Spell, Enchantment, Ranged",          "rch": "16", "stk": "1" },
+      { "element": "Fire",  "lvl": "III", "name": "Flameskin",             "effect": "A model that attacks the enchanted model and is within 1\" suffers a Hit PW 10 with Burn (1). If this hit wounds the attacker, this Enchantment is removed.",                                          "pw": "*", "type": "Spell, Enchantment, Ranged",          "rch": "16", "stk": "1" },
+      { "element": "Air",   "lvl": "I",   "name": "Formless Edge",         "effect": "The enchanted model's Melee Attacks gain +2 RCH and Knockback 2.",                                                                                                                                    "pw": "*", "type": "Spell, Enchantment, Ranged",          "rch": "16", "stk": "1" },
+      { "element": "Air",   "lvl": "II",  "name": "Featherlight",          "effect": "Target gains +2 SPD.",                                                                                                                                                                                 "pw": "-", "type": "Spell, Enchantment, Ranged",          "rch": "16", "stk": "1" },
+      { "element": "Air",   "lvl": "III", "name": "Protective Currents",   "effect": "Attacks at the enchanted model suffer -4 attacking modifier. If the enchanted model is Hit, this Enchantment is removed, but all enemy models within 3\" of the enchanted model suffer a Hit with Knockback 3 (no damage).", "pw": "-", "type": "Spell, Enchantment, Ranged", "rch": "16", "stk": "1" },
+      { "element": "Water", "lvl": "I",   "name": "Cutting Chill",         "effect": "Enchanted model's Melee Attacks gain +2 PW. When the enchanted model hits a target with a Melee Attack, the target becomes Immobilized State.",                                                       "pw": "*", "type": "Spell, Enchantment, Ranged",          "rch": "16", "stk": "1" },
+      { "element": "Water", "lvl": "II",  "name": "Mirror Bubble",         "effect": "When the enchanted model suffers a Hit from a Melee Attack, the attacker must perform an AG roll. If it fails, the attacker suffers a STK 1 Hit with PW equal to its own Attack. Enchantment removed.", "pw": "*", "type": "Spell, Enchantment, Ranged",        "rch": "10", "stk": "1" },
+      { "element": "Water", "lvl": "III", "name": "Ice Shield",            "effect": "When performing a DMG roll against the enchanted model, the attacker must first perform a DMG roll against ARM 5. If successful, make another roll against the enchanted model's default ARM, but with PW-3.", "pw": "-", "type": "Spell, Enchantment, Ranged",   "rch": "16", "stk": "1" }
+    ]
+  },
+  "Necromancy I": {
+    "type": "Spellcraft",
+    "element": "Profane",
+    "spells": [
+      { "element": "Profane", "lvl": "I", "name": "Command the Undead", "effect": "Continuous. Cannot be negated by Elemental Essence, does not cause Confrontation. Caster performs INT rolls equal to target's Tier (may spend Mana to guarantee successes). On success, target's Attack rolls are negated and a Tier I Undead becomes allied to the caster.", "pw": "-",   "type": "Spell, Sorcery, Ranged",               "rch": "Casting Aura", "stk": "x" },
+      { "element": "Profane", "lvl": "I", "name": "Spectral Sight",     "effect": "The enchanted model gains Advantage (Undead).",                                                                                                                                                                                                                               "pw": "-",   "type": "Spell, Enchantment, Melee and Ranged", "rch": "16",           "stk": "1" },
+      { "element": "Profane", "lvl": "I", "name": "Curse of Decay",     "effect": "Continuous. The target becomes Poisoned State.",                                                                                                                                                                                                                              "pw": "-",   "type": "Spell, Enchantment, Ranged",           "rch": "16",           "stk": "1" }
+    ]
+  },
+  "Necromancy II": {
+    "type": "Spellcraft",
+    "element": "Profane",
+    "spells": [
+      { "element": "Profane", "lvl": "I",  "name": "Command the Undead", "effect": "Continuous. Cannot be negated by Elemental Essence, does not cause Confrontation. Caster performs INT rolls equal to target's Tier (may spend Mana to guarantee successes). On success, target's Attack rolls are negated and a Tier I Undead becomes allied to the caster.", "pw": "-",   "type": "Spell, Sorcery, Ranged",               "rch": "Casting Aura", "stk": "x" },
+      { "element": "Profane", "lvl": "I",  "name": "Spectral Sight",     "effect": "The enchanted model gains Advantage (Undead).",                                                                                                                                                                                                                               "pw": "-",   "type": "Spell, Enchantment, Melee and Ranged", "rch": "16",           "stk": "1" },
+      { "element": "Profane", "lvl": "I",  "name": "Curse of Decay",     "effect": "Continuous. The target becomes Poisoned State.",                                                                                                                                                                                                                              "pw": "-",   "type": "Spell, Enchantment, Ranged",           "rch": "16",           "stk": "1" },
+      { "element": "Profane", "lvl": "II", "name": "Necrotic Wound",     "effect": "Target gains Cleave and Poison II.",                                                                                                                                                                                                                                         "pw": "*",   "type": "Spell, Enchantment, Ranged",           "rch": "16",           "stk": "1" },
+      { "element": "Profane", "lvl": "II", "name": "Soul Leech",         "effect": "The caster gains 1 Mana Counter whenever the enchanted model successfully deals a Wound.",                                                                                                                                                                                   "pw": "*",   "type": "Spell, Enchantment, Melee and Ranged", "rch": "16",           "stk": "1" }
+    ]
+  },
+  "Necromancy III": {
+    "type": "Spellcraft",
+    "element": "Profane",
+    "spells": [
+      { "element": "Profane", "lvl": "I",   "name": "Command the Undead", "effect": "Continuous. Cannot be negated by Elemental Essence, does not cause Confrontation. Caster performs INT rolls equal to target's Tier (may spend Mana to guarantee successes). On success, target's Attack rolls are negated and a Tier I Undead becomes allied to the caster.", "pw": "-",   "type": "Spell, Sorcery, Ranged",               "rch": "Casting Aura", "stk": "x" },
+      { "element": "Profane", "lvl": "I",   "name": "Spectral Sight",     "effect": "The enchanted model gains Advantage (Undead).",                                                                                                                                                                                                                               "pw": "-",   "type": "Spell, Enchantment, Melee and Ranged", "rch": "16",           "stk": "1" },
+      { "element": "Profane", "lvl": "I",   "name": "Curse of Decay",     "effect": "Continuous. The target becomes Poisoned State.",                                                                                                                                                                                                                              "pw": "-",   "type": "Spell, Enchantment, Ranged",           "rch": "16",           "stk": "1" },
+      { "element": "Profane", "lvl": "II",  "name": "Necrotic Wound",     "effect": "Target gains Cleave and Poison II.",                                                                                                                                                                                                                                         "pw": "*",   "type": "Spell, Enchantment, Ranged",           "rch": "16",           "stk": "1" },
+      { "element": "Profane", "lvl": "II",  "name": "Soul Leech",         "effect": "The caster gains 1 Mana Counter whenever the enchanted model successfully deals a Wound.",                                                                                                                                                                                   "pw": "*",   "type": "Spell, Enchantment, Melee and Ranged", "rch": "16",           "stk": "1" },
+      { "element": "Profane", "lvl": "III", "name": "A Second Chance",    "effect": "The target model regains 1 HP. If the target model was Incapacitated, it also regains 1 AP.",                                                                                                                                                                                "pw": "-",   "type": "Spell, Healing, Ranged",               "rch": "16",           "stk": "2" },
+      { "element": "Profane", "lvl": "III", "name": "Life Leech",         "effect": "The enchanted model gains 1 HP for each Wound dealt to an enemy model without the Undead or Construct Trait (up to double its default HP).",                                                                                                                                 "pw": "*",   "type": "Spell, Enchantment, Melee and Ranged", "rch": "10",           "stk": "1" }
+    ]
+  },
+  "Necromancy IV": {
+    "type": "Spellcraft",
+    "element": "Profane",
+    "spells": [
+      { "element": "Profane", "lvl": "I",   "name": "Command the Undead", "effect": "Continuous. Cannot be negated by Elemental Essence, does not cause Confrontation. Caster performs INT rolls equal to target's Tier (may spend Mana to guarantee successes). On success, target's Attack rolls are negated and a Tier I Undead becomes allied to the caster.", "pw": "-",  "type": "Spell, Sorcery, Ranged",               "rch": "Casting Aura", "stk": "x" },
+      { "element": "Profane", "lvl": "I",   "name": "Spectral Sight",     "effect": "The enchanted model gains Advantage (Undead).",                                                                                                                                                                                                                               "pw": "-",  "type": "Spell, Enchantment, Melee and Ranged", "rch": "16",           "stk": "1" },
+      { "element": "Profane", "lvl": "I",   "name": "Curse of Decay",     "effect": "Continuous. The target becomes Poisoned State.",                                                                                                                                                                                                                              "pw": "-",  "type": "Spell, Enchantment, Ranged",           "rch": "16",           "stk": "1" },
+      { "element": "Profane", "lvl": "II",  "name": "Necrotic Wound",     "effect": "Target gains Cleave and Poison II.",                                                                                                                                                                                                                                         "pw": "*",  "type": "Spell, Enchantment, Ranged",           "rch": "16",           "stk": "1" },
+      { "element": "Profane", "lvl": "II",  "name": "Soul Leech",         "effect": "The caster gains 1 Mana Counter whenever the enchanted model successfully deals a Wound.",                                                                                                                                                                                   "pw": "*",  "type": "Spell, Enchantment, Melee and Ranged", "rch": "16",           "stk": "1" },
+      { "element": "Profane", "lvl": "III", "name": "A Second Chance",    "effect": "The target model regains 1 HP. If the target model was Incapacitated, it also regains 1 AP.",                                                                                                                                                                                "pw": "-",  "type": "Spell, Healing, Ranged",               "rch": "16",           "stk": "2" },
+      { "element": "Profane", "lvl": "III", "name": "Life Leech",         "effect": "The enchanted model gains 1 HP for each Wound dealt to an enemy model without the Undead or Construct Trait (up to double its default HP).",                                                                                                                                 "pw": "*",  "type": "Spell, Enchantment, Melee and Ranged", "rch": "10",           "stk": "1" },
+      { "element": "Profane", "lvl": "IV",  "name": "Corroding Embrace",  "effect": "Armor-Piercing, Poison II, Sweep II.",                                                                                                                                                                                                                                      "pw": "14", "type": "Spell, Sorcery, Melee and Ranged",    "rch": "3",            "stk": "1" },
+      { "element": "Profane", "lvl": "IV",  "name": "Leeching Bolt",      "effect": "The caster regains 1 HP for each Wound dealt to an enemy model without the Undead or Construct Trait.",                                                                                                                                                                     "pw": "INT","type": "Spell, Sorcery, Ranged",               "rch": "16",           "stk": "1" }
+    ]
+  },
+  "Necromancy V": {
+    "type": "Spellcraft",
+    "element": "Profane",
+    "spells": [
+      { "element": "Profane", "lvl": "I",   "name": "Command the Undead", "effect": "Continuous. Caster performs INT rolls equal to target's Tier. On success, target becomes allied.", "pw": "-",  "type": "Spell, Sorcery, Ranged",    "rch": "Casting Aura", "stk": "x" },
+      { "element": "Profane", "lvl": "I",   "name": "Spectral Sight",     "effect": "The enchanted model gains Advantage (Undead).",                                                   "pw": "-",  "type": "Spell, Enchantment, Ranged", "rch": "16",           "stk": "1" },
+      { "element": "Profane", "lvl": "I",   "name": "Curse of Decay",     "effect": "Continuous. The target becomes Poisoned State.",                                                  "pw": "-",  "type": "Spell, Enchantment, Ranged", "rch": "16",           "stk": "1" },
+      { "element": "Profane", "lvl": "II",  "name": "Necrotic Wound",     "effect": "Target gains Cleave and Poison II.",                                                              "pw": "*",  "type": "Spell, Enchantment, Ranged", "rch": "16",           "stk": "1" },
+      { "element": "Profane", "lvl": "II",  "name": "Soul Leech",         "effect": "The caster gains 1 Mana Counter whenever the enchanted model successfully deals a Wound.",        "pw": "*",  "type": "Spell, Enchantment, Ranged", "rch": "16",           "stk": "1" },
+      { "element": "Profane", "lvl": "III", "name": "A Second Chance",    "effect": "Target regains 1 HP. If Incapacitated, also regains 1 AP.",                                       "pw": "-",  "type": "Spell, Healing, Ranged",    "rch": "16",           "stk": "2" },
+      { "element": "Profane", "lvl": "III", "name": "Life Leech",         "effect": "Enchanted model gains 1 HP for each Wound dealt to a non-Undead/Construct enemy (max double default HP).", "pw": "*", "type": "Spell, Enchantment, Ranged", "rch": "10", "stk": "1" },
+      { "element": "Profane", "lvl": "IV",  "name": "Corroding Embrace",  "effect": "Armor-Piercing, Poison II, Sweep II.",                                                            "pw": "14", "type": "Spell, Sorcery, Ranged",    "rch": "3",            "stk": "1" },
+      { "element": "Profane", "lvl": "IV",  "name": "Leeching Bolt",      "effect": "Caster regains 1 HP for each Wound dealt to a non-Undead/Construct enemy.",                       "pw": "INT","type": "Spell, Sorcery, Ranged",    "rch": "16",           "stk": "1" },
+      { "element": "Profane", "lvl": "V",   "name": "Raise the Undead",   "effect": "[Mana Cost: 2] Select a Dead model within Awareness. Summon up to 2 Tier I Undead or 1 Tier II Undead in Base Contact with the Dead model, then remove it.", "pw": "-", "type": "Spell, Conjuration, Ranged", "rch": "Casting Aura", "stk": "1" },
+      { "element": "Profane", "lvl": "V",   "name": "Reanimation",        "effect": "[Mana Cost: 1] Each Undead model within RCH regains full HP and may cancel Dead State.",          "pw": "-",  "type": "Spell, Healing, Ranged",    "rch": "Casting Aura", "stk": "1" }
+    ]
+  },
+  "Electromancy I": {
+    "type": "Spellcraft",
+    "element": "Air",
+    "spells": [
+      { "element": "Air", "lvl": "I", "name": "Electrification", "effect": "Ricochet IV, Stun, Ignore Armor.", "pw": "INT", "type": "Spell, Sorcery, Melee and Ranged", "rch": "0", "stk": "2" }
+    ]
+  },
+  "Armamancy I": {
+    "type": "Spellcraft",
+    "element": "Elder",
+    "spells": [
+      { "element": "Elder", "lvl": "I", "name": "Ethereal Blades", "effect": "[2 Hits]: PW+6; [3 Hits]: Armor-Piercing; [4 Hits]: Stagger; [5 Hits]: If target becomes Incapacitated, automatically render it Dead.", "pw": "INT-3", "type": "Spell, Sorcery, Melee", "rch": "0", "stk": "5 Active / 3 Reactive" }
+    ]
+  },
+  "Armamancy II": {
+    "type": "Spellcraft",
+    "element": "Elder",
+    "spells": [
+      { "element": "Elder", "lvl": "I",  "name": "Ethereal Blades", "effect": "[2 Hits]: PW+6; [3 Hits]: Armor-Piercing; [4 Hits]: Stagger; [5 Hits]: If target becomes Incapacitated, automatically render it Dead.", "pw": "INT-3",  "type": "Spell, Sorcery, Melee", "rch": "0", "stk": "5 Active / 3 Reactive" },
+      { "element": "Elder", "lvl": "II", "name": "Void Lance",      "effect": "Armor-Piercing. Can target any model within RCH. On hit, all models in a straight line from the caster to the target get hit.",         "pw": "INT+2",  "type": "Spell, Sorcery, Melee", "rch": "6", "stk": "1" }
+    ]
+  },
+  "Armamancy III": {
+    "type": "Spellcraft",
+    "element": "Elder",
+    "spells": [
+      { "element": "Elder", "lvl": "I",   "name": "Ethereal Blades",    "effect": "[2 Hits]: PW+6; [3 Hits]: Armor-Piercing; [4 Hits]: Stagger; [5 Hits]: If target becomes Incapacitated, automatically render it Dead.", "pw": "INT-3", "type": "Spell, Sorcery, Melee", "rch": "0", "stk": "5 Active / 3 Reactive" },
+      { "element": "Elder", "lvl": "II",  "name": "Void Lance",         "effect": "Armor-Piercing. Can target any model within RCH. On hit, all models in a straight line from the caster to the target get hit.",         "pw": "INT+2", "type": "Spell, Sorcery, Melee", "rch": "6", "stk": "1" },
+      { "element": "Elder", "lvl": "III", "name": "Spectral Greatsword","effect": "Sweep I; Armor-Piercing; Stagger.",                                                                                                      "pw": "INT+2", "type": "Spell, Sorcery, Melee", "rch": "2", "stk": "1" }
+    ]
+  },
+  "Art of Conjuration I": {
+    "type": "Spellcraft",
+    "element": "Earth / Elder",
+    "spells": [
+      { "element": "Earth", "lvl": "I", "name": "Summon Gargoyle", "effect": "[Mana Cost: 1] Summon Gargoyle to the field.", "pw": "-", "type": "Spell, Conjuration, Ranged", "rch": "0", "stk": "-" },
+      { "element": "Elder", "lvl": "I", "name": "Summon Imp",      "effect": "[Mana Cost: 1] Summon Imp to the field.",      "pw": "-", "type": "Spell, Conjuration, Ranged", "rch": "0", "stk": "-" }
+    ]
+  },
+  "Art of Conjuration II": {
+    "type": "Spellcraft",
+    "element": "Earth / Elder",
+    "spells": [
+      { "element": "Earth", "lvl": "I",  "name": "Summon Gargoyle", "effect": "[Mana Cost: 1] Summon Gargoyle to the field.", "pw": "-", "type": "Spell, Conjuration, Ranged", "rch": "0", "stk": "-" },
+      { "element": "Elder", "lvl": "I",  "name": "Summon Imp",      "effect": "[Mana Cost: 1] Summon Imp to the field.",      "pw": "-", "type": "Spell, Conjuration, Ranged", "rch": "0", "stk": "-" },
+      { "element": "Earth", "lvl": "II", "name": "Summon Golem",    "effect": "[Mana Cost: 2] Summon Golem to the field.",    "pw": "-", "type": "Spell, Conjuration, Ranged", "rch": "0", "stk": "-" }
+    ]
+  },
+  "Art of Conjuration III": {
+    "type": "Spellcraft",
+    "element": "Earth / Elder / Water",
+    "spells": [
+      { "element": "Earth", "lvl": "I",   "name": "Summon Gargoyle",        "effect": "[Mana Cost: 1] Summon Gargoyle to the field.",        "pw": "-", "type": "Spell, Conjuration, Ranged", "rch": "0", "stk": "-" },
+      { "element": "Elder", "lvl": "I",   "name": "Summon Imp",             "effect": "[Mana Cost: 1] Summon Imp to the field.",             "pw": "-", "type": "Spell, Conjuration, Ranged", "rch": "0", "stk": "-" },
+      { "element": "Earth", "lvl": "II",  "name": "Summon Golem",           "effect": "[Mana Cost: 2] Summon Golem to the field.",           "pw": "-", "type": "Spell, Conjuration, Ranged", "rch": "0", "stk": "-" },
+      { "element": "Earth", "lvl": "III", "name": "Summon Earth Elemental", "effect": "[Mana Cost: 3] Summon Earth Elemental to the field.", "pw": "-", "type": "Spell, Conjuration, Ranged", "rch": "0", "stk": "-" },
+      { "element": "Water", "lvl": "III", "name": "Summon Water Elemental", "effect": "[Mana Cost: 3] Summon Water Elemental to the field.", "pw": "-", "type": "Spell, Conjuration, Ranged", "rch": "0", "stk": "-" }
+    ]
+  },
+  "Art of Conjuration IV": {
+    "type": "Spellcraft",
+    "element": "Earth / Elder / Water",
+    "spells": [
+      { "element": "Earth", "lvl": "I",   "name": "Summon Gargoyle",        "effect": "[Mana Cost: 1] Summon Gargoyle to the field.",        "pw": "-", "type": "Spell, Conjuration, Ranged", "rch": "0", "stk": "-" },
+      { "element": "Elder", "lvl": "I",   "name": "Summon Imp",             "effect": "[Mana Cost: 1] Summon Imp to the field.",             "pw": "-", "type": "Spell, Conjuration, Ranged", "rch": "0", "stk": "-" },
+      { "element": "Earth", "lvl": "II",  "name": "Summon Golem",           "effect": "[Mana Cost: 2] Summon Golem to the field.",           "pw": "-", "type": "Spell, Conjuration, Ranged", "rch": "0", "stk": "-" },
+      { "element": "Earth", "lvl": "III", "name": "Summon Earth Elemental", "effect": "[Mana Cost: 3] Summon Earth Elemental to the field.", "pw": "-", "type": "Spell, Conjuration, Ranged", "rch": "0", "stk": "-" },
+      { "element": "Water", "lvl": "III", "name": "Summon Water Elemental", "effect": "[Mana Cost: 3] Summon Water Elemental to the field.", "pw": "-", "type": "Spell, Conjuration, Ranged", "rch": "0", "stk": "-" },
+      { "element": "Earth", "lvl": "IV",  "name": "Summon Colossus",        "effect": "[Mana Cost: 4] Summon Colossus to the field.",        "pw": "-", "type": "Spell, Conjuration, Ranged", "rch": "0", "stk": "-" }
+    ]
+  },
+  "Wizardry I": {
+    "type": "Spellcraft",
+    "element": "Elder",
+    "spells": [
+      { "element": "Elder", "lvl": "I", "name": "Mana Burst",   "effect": "Stagger.",                                                                                                                                                                                                            "pw": "INT", "type": "Spell, Sorcery, Ranged", "rch": "16",            "stk": "1" },
+      { "element": "Elder", "lvl": "I", "name": "Dispel Magic", "effect": "Targetless. Choose one: (1) Remove target Sorcery/Enchantment/Transmutation spell. (2) Remove target summoned creature. (3) Cancel Shrouded State.",                                                                   "pw": "-",   "type": "Spell, Healing, Ranged",  "rch": "16, AOE: Circular L", "stk": "1" }
+    ]
+  },
+  "Wizardry II": {
+    "type": "Spellcraft",
+    "element": "Elder",
+    "spells": [
+      { "element": "Elder", "lvl": "I",  "name": "Mana Burst",    "effect": "Stagger.",                                                                                                                                                                                                                         "pw": "INT", "type": "Spell, Sorcery, Ranged",           "rch": "16",              "stk": "1" },
+      { "element": "Elder", "lvl": "I",  "name": "Dispel Magic",  "effect": "Targetless. Choose one: (1) Remove target Sorcery/Enchantment/Transmutation spell. (2) Remove target summoned creature. (3) Cancel Shrouded State.",                                                                              "pw": "-",   "type": "Spell, Healing, Ranged",           "rch": "16, AOE: Circular L", "stk": "1" },
+      { "element": "Elder", "lvl": "II", "name": "Confuse Target","effect": "Mindgame, Ricochet I. Target becomes Confused State until start of caster's next Strategic Phase. Caster may spend 1 Mana to gain +2 STK.",                                                                                       "pw": "-",   "type": "Spell, Sorcery, Ranged",           "rch": "16",              "stk": "1" },
+      { "element": "Elder", "lvl": "II", "name": "Ward",          "effect": "Non-Critical Damage and related effects of any incoming Attack targeting the target of this Spell are ignored. When the caster is Engaged, this spell can only target the caster.",                                               "pw": "-",   "type": "Spell, Sorcery, Melee and Ranged", "rch": "16",              "stk": "1" }
+    ]
+  },
+  "Wizardry III": {
+    "type": "Spellcraft",
+    "element": "Elder",
+    "spells": [
+      { "element": "Elder", "lvl": "I",   "name": "Mana Burst",         "effect": "Stagger.",                                                                                                                                                                                                    "pw": "INT", "type": "Spell, Sorcery, Ranged",           "rch": "16",              "stk": "1" },
+      { "element": "Elder", "lvl": "I",   "name": "Dispel Magic",       "effect": "Targetless. Choose one: (1) Remove target Sorcery/Enchantment/Transmutation spell. (2) Remove target summoned creature. (3) Cancel Shrouded State.",                                                          "pw": "-",   "type": "Spell, Healing, Ranged",           "rch": "16, AOE: Circular L", "stk": "1" },
+      { "element": "Elder", "lvl": "II",  "name": "Confuse Target",     "effect": "Mindgame, Ricochet I. Target becomes Confused State until start of caster's next Strategic Phase. Caster may spend 1 Mana to gain +2 STK.",                                                                  "pw": "-",   "type": "Spell, Sorcery, Ranged",           "rch": "16",              "stk": "1" },
+      { "element": "Elder", "lvl": "II",  "name": "Ward",               "effect": "Non-Critical Damage and related effects of any incoming Attack targeting the target are ignored. When caster is Engaged, this spell can only target the caster.",                                              "pw": "-",   "type": "Spell, Sorcery, Melee and Ranged", "rch": "16",              "stk": "1" },
+      { "element": "Elder", "lvl": "III", "name": "Redirect Damage",    "effect": "On hit, the target's successful non-Critical Hits are negated. The target receives non-Critical Hits equal to the number of successful Attack Rolls it made, using the same Item/Spell/Abilities.",          "pw": "-",   "type": "Spell, Sorcery, Melee and Ranged", "rch": "16",              "stk": "1" },
+      { "element": "Elder", "lvl": "III", "name": "Hastened Recovery",  "effect": "Choose one: (1) Remove Crippled; (2) Remove Bleeding; (3) Remove Weakened; (4) Remove Poisoned; (5) The target regains 1 HP.",                                                                              "pw": "-",   "type": "Spell, Healing, Ranged",           "rch": "16",              "stk": "STA" }
+    ]
+  }
+}

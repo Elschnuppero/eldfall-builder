@@ -1,0 +1,88 @@
+{
+  "id": "soga_clan_champion",
+  "name": "Clan Champion",
+  "faction": "Empire of Soga",
+  "cost": 23,
+  "limit": 1,
+  "size": "Medium",
+  "classes": ["Warrior", "Armsmaster"],
+  "stats": {
+    "STA": 2,
+    "SPD": 5,
+    "OFF": 16,
+    "DEF": 12,
+    "ACC": 12,
+    "INT": 13,
+    "AG": 10,
+    "T": 13,
+    "ARM": 5,
+    "HP": 3,
+    "M": 17
+  },
+  "traits": [
+    "Vigilance",
+    "Resourceful I"
+  ],
+  "skills": [
+    "Dash"
+  ],
+  "combatArts": [
+    "Fencing IV"
+  ],
+  "spellcrafts": [],
+  "inventory": [
+    {
+      "name": "Spear",
+      "effect": "Throwing.",
+      "pw": "T",
+      "rch": "2",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 2
+    },
+    {
+      "name": "Sword",
+      "effect": "-",
+      "pw": "T",
+      "rch": "1",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 1
+    },
+    {
+      "name": "Piercing Dagger",
+      "effect": "Armor-Piercing. +1 STK when used against a model in Crouched state.",
+      "pw": "T-2",
+      "rch": "0",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": "-"
+    }
+  ],
+  "stratagems": [
+    {
+      "name": "Advance!",
+      "type": "Authority",
+      "effect": "All models gain +1 SPD."
+    },
+    {
+      "name": "Evasion Tactics",
+      "type": "Authority",
+      "effect": "All models gain +2 AG."
+    },
+    {
+      "name": "Back to Back",
+      "type": "Authority",
+      "effect": "All models gain Vigilance."
+    },
+    {
+      "name": "Brazen Assault",
+      "type": "Authority",
+      "effect": "Warriors gain Dash and Fearless."
+    }
+  ],
+  "special": null
+}

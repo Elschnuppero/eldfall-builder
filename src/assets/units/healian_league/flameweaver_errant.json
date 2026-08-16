@@ -1,0 +1,80 @@
+{
+  "id": "hl_flameweaver_errant",
+  "name": "Flameweaver Errant",
+  "faction": "Helian League",
+  "cost": 21,
+  "limit": 2,
+  "size": "Medium",
+  "classes": ["Artificer", "Soldier"],
+  "stats": {
+    "STA": 2,
+    "SPD": 5,
+    "OFF": 14,
+    "DEF": 14,
+    "ACC": 8,
+    "INT": 13,
+    "AG": 12,
+    "T": 12,
+    "ARM": 3,
+    "HP": 2,
+    "M": 16
+  },
+  "traits": [
+    "Tactician",
+    "Resourceful I",
+    "Affinity (Fire)"
+  ],
+  "skills": [],
+  "combatArts": [
+    "Fencing I"
+  ],
+  "spellcrafts": [
+    "Art of Enchanting III",
+    "Art of Sorcery I"
+  ],
+  "inventory": [
+    {
+      "name": "Mastercrafted Helrin Sword",
+      "effect": "+1 STK in the Active Role.",
+      "pw": "T",
+      "rch": "1",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 1
+    },
+    {
+      "name": "Dagger",
+      "effect": "Throwing. +1 STK when used against a model in Crouched State.",
+      "pw": "T-3",
+      "rch": "0",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 0
+    }
+  ],
+  "stratagems": [
+    {
+      "name": "March!",
+      "type": "Authority",
+      "effect": "Soldiers gain +1 SPD."
+    },
+    {
+      "name": "Rally Troops (Helian)",
+      "type": "Authority",
+      "effect": "Soldiers cannot become Panicked."
+    },
+    {
+      "name": "Expeditionary Paragon",
+      "type": "Authority",
+      "effect": "Target party member gains Soldier class."
+    },
+    {
+      "name": "Striking Momentum",
+      "type": "Authority",
+      "effect": "When a Soldier declares an Attack in Reaction, it may immediately move directly towards the target activated model for a halved SPD."
+    }
+  ],
+  "special": null
+}

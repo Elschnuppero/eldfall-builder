@@ -1,0 +1,175 @@
+{
+  "Art of Enchanting I": {
+    "type": "Spellcraft",
+    "element": "Elder / Fire / Air / Water",
+    "spells": [
+      { "element": "Elder", "lvl": "I", "name": "Arcane Shield", "effect": "Enchanted model gains +4 to its ARM value. This bonus cannot increase a model's ARM above 6. Critical Hits scored against this model do not ignore ARM.", "pw": "-", "type": "Spell, Enchantment, Ranged", "rch": "16", "stk": "1" }
+    ]
+  },
+  "Art of Enchanting II": {
+    "type": "Spellcraft",
+    "element": "Elder / Fire / Air / Water",
+    "spells": [
+      { "element": "Elder", "lvl": "I", "name": "Arcane Shield", "effect": "Enchanted model gains +4 to its ARM value. This bonus cannot increase a model's ARM above 6. Critical Hits scored against this model do not ignore ARM.", "pw": "-", "type": "Spell, Enchantment, Ranged", "rch": "16", "stk": "1" },
+      { "element": "Elder", "lvl": "II", "name": "Spectral Blade", "effect": "Target gains: Ignore Armor and Stagger.", "pw": "*", "type": "Spell, Enchantment, Ranged", "rch": "16", "stk": "1" },
+      { "element": "Fire",  "lvl": "I", "name": "Burning Touch", "effect": "Target gains: Sweep I; Burn 1. This enchanted model may declare Assist Action and remove Bleeding State from an allied model in Base Contact.", "pw": "/", "type": "Spell, Enchantment, Melee and Ranged", "rch": "16", "stk": "1" },
+      { "element": "Fire",  "lvl": "II", "name": "Melting Touch", "effect": "Target gains: Ignore Armor; Burn 1.", "pw": "*", "type": "Spell, Enchantment, Ranged", "rch": "16", "stk": "1" },
+      { "element": "Air",   "lvl": "I", "name": "Formless Edge", "effect": "The enchanted model's Melee Attacks gains +2 RCH and Knockback 2.", "pw": "*", "type": "Spell, Enchantment, Ranged", "rch": "16", "stk": "1" },
+      { "element": "Air",   "lvl": "II", "name": "Featherlight", "effect": "Target gains +2 SPD.", "pw": "-", "type": "Spell, Enchantment, Ranged", "rch": "16", "stk": "1" },
+      { "element": "Water", "lvl": "I", "name": "Cutting Chill", "effect": "Enchanted model's Melee Attacks gain +2 PW. When the enchanted model hits a target with a Melee Attack, the target becomes Immobilized State.", "pw": "*", "type": "Spell, Enchantment, Ranged", "rch": "16", "stk": "1" },
+      { "element": "Water", "lvl": "II", "name": "Mirror Bubble", "effect": "When the enchanted model suffers a Hit from a Melee Attack, the attacker must perform an AG roll. If it fails, the attacker suffers a STK 1 Hit with PW equal to its own Attack. Afterwards, this Enchantment is removed.", "pw": "*", "type": "Spell, Enchantment, Ranged", "rch": "10", "stk": "1" }
+    ]
+  },
+  "Art of Enchanting III": {
+    "type": "Spellcraft",
+    "element": "Elder / Fire / Air / Water",
+    "spells": [
+      { "element": "Elder", "lvl": "I", "name": "Arcane Shield", "effect": "Enchanted model gains +4 to its ARM value. This bonus cannot increase a model's ARM above 6. Critical Hits scored against this model do not ignore ARM.", "pw": "-", "type": "Spell, Enchantment, Ranged", "rch": "16", "stk": "1" },
+      { "element": "Elder", "lvl": "II", "name": "Spectral Blade", "effect": "Target gains: Ignore Armor and Stagger.", "pw": "*", "type": "Spell, Enchantment, Ranged", "rch": "16", "stk": "1" },
+      { "element": "Elder", "lvl": "III", "name": "Hasten", "effect": "During the Strategic Phase, the enchanted model may perform a Normal Movement and then remove the enchantment.", "pw": "-", "type": "Spell, Enchantment, Ranged", "rch": "16", "stk": "1" },
+      { "element": "Fire",  "lvl": "I", "name": "Burning Touch", "effect": "Target gains: Sweep I; Burn 1. This enchanted model may declare Assist Action and remove Bleeding State from an allied model in Base Contact.", "pw": "/", "type": "Spell, Enchantment, Melee and Ranged", "rch": "16", "stk": "1" },
+      { "element": "Fire",  "lvl": "II", "name": "Melting Touch", "effect": "Target gains: Ignore Armor; Burn 1.", "pw": "*", "type": "Spell, Enchantment, Ranged", "rch": "16", "stk": "1" },
+      { "element": "Fire",  "lvl": "III", "name": "Flameskin", "effect": "A model that attacks the enchanted model and is within 1\" suffers a hit with Power (PW) 10 and the Burn (1) trait. If this hit wounds the attacker, this Enchantment is removed.", "pw": "*", "type": "Spell, Enchantment, Ranged", "rch": "16", "stk": "1" },
+      { "element": "Air",   "lvl": "I", "name": "Formless Edge", "effect": "The enchanted model's Melee Attacks gains +2 RCH and Knockback 2.", "pw": "*", "type": "Spell, Enchantment, Ranged", "rch": "16", "stk": "1" },
+      { "element": "Air",   "lvl": "II", "name": "Featherlight", "effect": "Target gains +2 SPD.", "pw": "-", "type": "Spell, Enchantment, Ranged", "rch": "16", "stk": "1" },
+      { "element": "Air",   "lvl": "III", "name": "Protective Currents", "effect": "Attacks at the enchanted model suffer -4 attacking modifier. If the enchanted model is Hit, this Enchantment is removed, but all enemy models within 3\" of the enchanted model suffer a Hit with Knockback 3, but no damage.", "pw": "-", "type": "Spell, Enchantment, Ranged", "rch": "16", "stk": "1" },
+      { "element": "Water", "lvl": "I", "name": "Cutting Chill", "effect": "Enchanted model's Melee Attacks gain +2 PW. When the enchanted model hits a target with a Melee Attack, the target becomes Immobilized State.", "pw": "*", "type": "Spell, Enchantment, Ranged", "rch": "16", "stk": "1" },
+      { "element": "Water", "lvl": "II", "name": "Mirror Bubble", "effect": "When the enchanted model suffers a Hit from a Melee Attack, the attacker must perform an AG roll. If it fails, the attacker suffers a STK 1 Hit with PW equal to its own Attack. Afterwards, this Enchantment is removed.", "pw": "*", "type": "Spell, Enchantment, Ranged", "rch": "10", "stk": "1" },
+      { "element": "Water", "lvl": "III", "name": "Ice Shield", "effect": "When performing a DMG roll against the enchanted model, the attacker must first perform a DMG roll against ARM 5. If successful, the attacker must then make another roll against the enchanted model's default ARM, but with PW-3.", "pw": "-", "type": "Spell, Enchantment, Ranged", "rch": "16", "stk": "1" }
+    ]
+  },
+  "Cryomancy I": {
+    "type": "Spellcraft",
+    "element": "Water",
+    "spells": [
+      { "element": "Water", "lvl": "I", "name": "Cure", "effect": "Removes Bleeding, Crippled, Poisoned, and Weakened States from the target.", "pw": "-", "type": "Spell, Healing, Ranged", "rch": "16", "stk": "1" },
+      { "element": "Water", "lvl": "I", "name": "Ice Spikes", "effect": "Target becomes Slowed State on Hit, until the caster's next Strategic Phase.", "pw": "11", "type": "Spell, Sorcery, Ranged", "rch": "16", "stk": "3" }
+    ]
+  },
+  "Cryomancy II": {
+    "type": "Spellcraft",
+    "element": "Water",
+    "spells": [
+      { "element": "Water", "lvl": "I", "name": "Cure", "effect": "Removes Bleeding, Crippled, Poisoned, and Weakened States from the target.", "pw": "-", "type": "Spell, Healing, Ranged", "rch": "16", "stk": "1" },
+      { "element": "Water", "lvl": "I", "name": "Ice Spikes", "effect": "Target becomes Slowed State on Hit, until the caster's next Strategic Phase.", "pw": "11", "type": "Spell, Sorcery, Ranged", "rch": "16", "stk": "3" },
+      { "element": "Water", "lvl": "II", "name": "Frost", "effect": "The target becomes Immobilized on Hit until the caster's next Strategic Phase.", "pw": "11", "type": "Spell, Sorcery, Ranged", "rch": "AOE: Spray S", "stk": "1" },
+      { "element": "Water", "lvl": "II", "name": "Water Lash", "effect": "Knockback 2 (applied to all sizes except Colossal and Epic).", "pw": "8", "type": "Spell, Sorcery, Melee and Ranged", "rch": "16", "stk": "STA" }
+    ]
+  },
+  "Cryomancy III": {
+    "type": "Spellcraft",
+    "element": "Water",
+    "spells": [
+      { "element": "Water", "lvl": "I", "name": "Cure", "effect": "Removes Bleeding, Crippled, Poisoned, and Weakened States from the target.", "pw": "-", "type": "Spell, Healing, Ranged", "rch": "16", "stk": "1" },
+      { "element": "Water", "lvl": "I", "name": "Ice Spikes", "effect": "Target becomes Slowed State on Hit, until the caster's next Strategic Phase.", "pw": "11", "type": "Spell, Sorcery, Ranged", "rch": "16", "stk": "3" },
+      { "element": "Water", "lvl": "II", "name": "Frost", "effect": "The target becomes Immobilized on Hit until the caster's next Strategic Phase.", "pw": "11", "type": "Spell, Sorcery, Ranged", "rch": "AOE: Spray S", "stk": "1" },
+      { "element": "Water", "lvl": "II", "name": "Water Lash", "effect": "Knockback 2 (applied to all sizes except Colossal and Epic).", "pw": "8", "type": "Spell, Sorcery, Melee and Ranged", "rch": "16", "stk": "STA" },
+      { "element": "Water", "lvl": "III", "name": "Deep Freeze", "effect": "[Mana Cost: 1] While enchanted, the model suffers -3 ARM mod, and cannot declare Movements or Actions other than Idle and Nothing. Attacks against the model have Advantage. At the beginning of the next Strategic Phase (any), the enchanted model may perform a T roll. On a successful roll, the Enchantment is removed.", "pw": "-", "type": "Spell, Enchantment, Melee and Ranged", "rch": "10", "stk": "1" },
+      { "element": "Water", "lvl": "III", "name": "Glacier Circle", "effect": "Frostbite, Targetless. By spending 1 Mana, the caster may increase the STK of this Spell by 1. Enemy models within the AoE become Slowed on Hit. Areas within the AoE become Difficult and Dangerous Environments until the caster's next Strategic Phase.", "pw": "13", "type": "Spell, Sorcery, Ranged", "rch": "Casting Aura, AOE: Circular L", "stk": "1" }
+    ]
+  },
+  "Hieromancy I": {
+    "type": "Spellcraft",
+    "element": "Divine",
+    "spells": [
+      { "element": "Divine", "lvl": "I", "name": "Purgation", "effect": "Removes the Weakened and Poisoned states from the target. Removes any number of Enchantments from the target. If the target has the Undead, Affinity (Profane), or Elemental Essence (Profane) trait, it automatically suffers a Wound when hit.", "pw": "-", "type": "Spell, Healing, Melee and Ranged", "rch": "16", "stk": "1" },
+      { "element": "Divine", "lvl": "I", "name": "Curative Touch", "effect": "The target model regains all HP. In addition, the Weakened, Bleeding, Crippled and Poisoned States are removed from the model.", "pw": "-", "type": "Spell, Healing, Melee", "rch": "0", "stk": "STA" }
+    ]
+  },
+  "Hieromancy II": {
+    "type": "Spellcraft",
+    "element": "Divine",
+    "spells": [
+      { "element": "Divine", "lvl": "I", "name": "Purgation", "effect": "Removes the Weakened and Poisoned states from the target. Removes any number of Enchantments from the target. If the target has the Undead, Affinity (Profane), or Elemental Essence (Profane) trait, it automatically suffers a Wound when hit.", "pw": "-", "type": "Spell, Healing, Melee and Ranged", "rch": "16", "stk": "1" },
+      { "element": "Divine", "lvl": "I", "name": "Curative Touch", "effect": "The target model regains all HP. In addition, the Weakened, Bleeding, Crippled and Poisoned States are removed from the model.", "pw": "-", "type": "Spell, Healing, Melee", "rch": "0", "stk": "STA" },
+      { "element": "Divine", "lvl": "II", "name": "Protective Barrier", "effect": "If the enchanted model is hit, negate 1 Hit (if there are multiple hits, the player may choose) and remove this Enchantment from the model.", "pw": "-", "type": "Spell, Enchantment, Ranged", "rch": "16", "stk": "STA" },
+      { "element": "Divine", "lvl": "II", "name": "Blinding Light", "effect": "Targetless. Models within the AoE become Blinded (state) on Hit until the end of the turn.", "pw": "-", "type": "Spell, Sorcery, Ranged", "rch": "16, AOE: Circular S", "stk": "STA" }
+    ]
+  },
+  "Hieromancy III": {
+    "type": "Spellcraft",
+    "element": "Divine",
+    "spells": [
+      { "element": "Divine", "lvl": "I", "name": "Purgation", "effect": "Removes the Weakened and Poisoned states from the target. Removes any number of Enchantments from the target. If the target has the Undead, Affinity (Profane), or Elemental Essence (Profane) trait, it automatically suffers a Wound when hit.", "pw": "-", "type": "Spell, Healing, Melee and Ranged", "rch": "16", "stk": "1" },
+      { "element": "Divine", "lvl": "I", "name": "Curative Touch", "effect": "The target model regains all HP. In addition, the Weakened, Bleeding, Crippled and Poisoned States are removed from the model.", "pw": "-", "type": "Spell, Healing, Melee", "rch": "0", "stk": "STA" },
+      { "element": "Divine", "lvl": "II", "name": "Protective Barrier", "effect": "If the enchanted model is hit, negate 1 Hit (if there are multiple hits, the player may choose) and remove this Enchantment from the model.", "pw": "-", "type": "Spell, Enchantment, Ranged", "rch": "16", "stk": "STA" },
+      { "element": "Divine", "lvl": "II", "name": "Blinding Light", "effect": "Targetless. Models within the AoE become Blinded (state) on Hit until the end of the turn.", "pw": "-", "type": "Spell, Sorcery, Ranged", "rch": "16, AOE: Circular S", "stk": "STA" },
+      { "element": "Divine", "lvl": "III", "name": "Warding Barrier", "effect": "To cast this Spell the caster needs to perform the Ritual Action. Focus. Ranged Attacks with Spell type targeting models within the Casting Aura are negated. Models with Incorporeal Trait within the Casting Aura suffer magical damage of PW equal to the caster's Morale, and must be moved directly away from the caster to the outside edge of its Casting Aura.", "pw": "*", "type": "Spell, Enchantment, Ranged", "rch": "Casting Aura", "stk": "1" },
+      { "element": "Divine", "lvl": "III", "name": "Smite", "effect": "Targetless; Armor-Piercing; Burn 1.", "pw": "M", "type": "Spell, Sorcery, Ranged", "rch": "Casting Aura, AOE: Circular L", "stk": "1" }
+    ]
+  },
+  "Hieromancy IV": {
+    "type": "Spellcraft",
+    "element": "Divine",
+    "spells": [
+      { "element": "Divine", "lvl": "I", "name": "Purgation", "effect": "Removes the Weakened and Poisoned states from the target. Removes any number of Enchantments from the target. If the target has the Undead, Affinity (Profane), or Elemental Essence (Profane) trait, it automatically suffers a Wound when hit.", "pw": "-", "type": "Spell, Healing, Melee and Ranged", "rch": "16", "stk": "1" },
+      { "element": "Divine", "lvl": "I", "name": "Curative Touch", "effect": "The target model regains all HP. In addition, the Weakened, Bleeding, Crippled and Poisoned States are removed from the model.", "pw": "-", "type": "Spell, Healing, Melee", "rch": "0", "stk": "STA" },
+      { "element": "Divine", "lvl": "II", "name": "Protective Barrier", "effect": "If the enchanted model is hit, negate 1 Hit (if there are multiple hits, the player may choose) and remove this Enchantment from the model.", "pw": "-", "type": "Spell, Enchantment, Ranged", "rch": "16", "stk": "STA" },
+      { "element": "Divine", "lvl": "II", "name": "Blinding Light", "effect": "Targetless. Models within the AoE become Blinded (state) on Hit until the end of the turn.", "pw": "-", "type": "Spell, Sorcery, Ranged", "rch": "16, AOE: Circular S", "stk": "STA" },
+      { "element": "Divine", "lvl": "III", "name": "Warding Barrier", "effect": "To cast this Spell the caster needs to perform the Ritual Action. Focus. Ranged Attacks with Spell type targeting models within the Casting Aura are negated. Models with Incorporeal Trait within the Casting Aura suffer magical damage of PW equal to the caster's Morale, and must be moved directly away from the caster to the outside edge of its Casting Aura.", "pw": "*", "type": "Spell, Enchantment, Ranged", "rch": "Casting Aura", "stk": "1" },
+      { "element": "Divine", "lvl": "III", "name": "Smite", "effect": "Targetless; Armor-Piercing; Burn 1.", "pw": "M", "type": "Spell, Sorcery, Ranged", "rch": "Casting Aura, AOE: Circular L", "stk": "1" },
+      { "element": "Divine", "lvl": "IV", "name": "Curative Miracle", "effect": "The target model regains all HP. In addition, the Weakened, Bleeding, Crippled and Poisoned States are removed from the model.", "pw": "-", "type": "Spell, Healing, Ranged", "rch": "16", "stk": "1" },
+      { "element": "Divine", "lvl": "IV", "name": "Anointment", "effect": "The enchanted model cannot be targeted by enemy Enchantments.", "pw": "-", "type": "Spell, Enchantment, Ranged", "rch": "16", "stk": "1" }
+    ]
+  },
+  "Art of Sorcery I": {
+    "type": "Spellcraft",
+    "element": "Elder / Fire",
+    "spells": [
+      { "element": "Elder", "lvl": "I", "name": "Arcane Bolt", "effect": "Critical: Knockdown.", "pw": "INT", "type": "Spell, Sorcery, Ranged", "rch": "16", "stk": "STA" },
+      { "element": "Fire",  "lvl": "I", "name": "Ignite", "effect": "Burn 1.", "pw": "INT", "type": "Spell, Sorcery, Ranged", "rch": "16", "stk": "STA" }
+    ]
+  },
+  "Art of Sorcery II": {
+    "type": "Spellcraft",
+    "element": "Elder / Fire",
+    "spells": [
+      { "element": "Elder", "lvl": "I", "name": "Arcane Bolt", "effect": "Critical: Knockdown.", "pw": "INT", "type": "Spell, Sorcery, Ranged", "rch": "16", "stk": "STA" },
+      { "element": "Elder", "lvl": "II", "name": "Telekinetic Blast", "effect": "Knockback 3; Knockdown.", "pw": "INT-3", "type": "Spell, Sorcery, Ranged", "rch": "AOE: Spray L", "stk": "1" },
+      { "element": "Fire",  "lvl": "I", "name": "Ignite", "effect": "Burn 1.", "pw": "INT", "type": "Spell, Sorcery, Ranged", "rch": "16", "stk": "STA" },
+      { "element": "Fire",  "lvl": "II", "name": "Flare", "effect": "Sweep II; Burn 2.", "pw": "INT", "type": "Spell, Sorcery, Melee and Ranged", "rch": "3", "stk": "1" }
+    ]
+  },
+  "Art of Sorcery III": {
+    "type": "Spellcraft",
+    "element": "Elder / Fire",
+    "spells": [
+      { "element": "Elder", "lvl": "I", "name": "Arcane Bolt", "effect": "Critical: Knockdown.", "pw": "INT", "type": "Spell, Sorcery, Ranged", "rch": "16", "stk": "STA" },
+      { "element": "Elder", "lvl": "II", "name": "Telekinetic Blast", "effect": "Knockback 3; Knockdown.", "pw": "INT-3", "type": "Spell, Sorcery, Ranged", "rch": "AOE: Spray L", "stk": "1" },
+      { "element": "Elder", "lvl": "III", "name": "Soul Crush", "effect": "Stun, Ignore Armor. If wounded, the target becomes Panicked State until caster's next End phase.", "pw": "INT", "type": "Spell, Sorcery, Ranged", "rch": "16", "stk": "1" },
+      { "element": "Fire",  "lvl": "I", "name": "Ignite", "effect": "Burn 1.", "pw": "INT", "type": "Spell, Sorcery, Ranged", "rch": "16", "stk": "STA" },
+      { "element": "Fire",  "lvl": "II", "name": "Flare", "effect": "Sweep II; Burn 2.", "pw": "INT", "type": "Spell, Sorcery, Melee and Ranged", "rch": "3", "stk": "1" },
+      { "element": "Fire",  "lvl": "III", "name": "Fireball", "effect": "Targetless; Burn 1.", "pw": "INT", "type": "Spell, Sorcery, Ranged", "rch": "16, AoE: Circular L", "stk": "1" }
+    ]
+  },
+  "Fencing I": {
+    "type": "Combat Art",
+    "levels": [
+      { "lvl": "I", "name": "Masterful Parry", "effect": "Target's Melee Attack suffers -3 Modifier." }
+    ]
+  },
+  "Fencing II": {
+    "type": "Combat Art",
+    "levels": [
+      { "lvl": "I", "name": "Masterful Parry", "effect": "Target's Melee Attack suffers -3 Modifier." },
+      { "lvl": "II", "name": "Harsh Riposte", "effect": "Target's Melee Attack suffers -1 STK (cannot be reduced below 1)." }
+    ]
+  },
+  "Fencing III": {
+    "type": "Combat Art",
+    "levels": [
+      { "lvl": "I", "name": "Masterful Parry", "effect": "Target's Melee Attack suffers -3 Modifier." },
+      { "lvl": "II", "name": "Harsh Riposte", "effect": "Target's Melee Attack suffers -1 STK (cannot be reduced below 1)." },
+      { "lvl": "III", "name": "Second Wind", "effect": "User's Melee Attack gains +1 STK." }
+    ]
+  },
+  "Fencing IV": {
+    "type": "Combat Art",
+    "levels": [
+      { "lvl": "I", "name": "Masterful Parry", "effect": "Target's Melee Attack suffers -3 Modifier." },
+      { "lvl": "II", "name": "Harsh Riposte", "effect": "Target's Melee Attack suffers -1 STK (cannot be reduced below 1)." },
+      { "lvl": "III", "name": "Second Wind", "effect": "User's Melee Attack gains +1 STK." },
+      { "lvl": "IV", "name": "Grapple & Thrash", "effect": "User's Melee Attack gains Knockdown." }
+    ]
+  }
+}

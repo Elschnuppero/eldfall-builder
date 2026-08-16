@@ -1,0 +1,233 @@
+{
+  "Kitsune no Mai I": {
+    "type": "Spellcraft",
+    "element": "Fire",
+    "spells": [
+      {
+        "element": "Fire",
+        "lvl": "I",
+        "name": "Burning Resolve",
+        "effect": "Target model with 0 Activation Points regains 1 Activation Point.",
+        "pw": "-",
+        "type": "Spell, Healing, Ranged",
+        "rch": "10",
+        "stk": "1"
+      },
+      {
+        "element": "Fire",
+        "lvl": "I",
+        "name": "Flare",
+        "effect": "Sweep II, Burn 2.",
+        "pw": "INT",
+        "type": "Spell, Sorcery, Melee and Ranged",
+        "rch": "3",
+        "stk": "1"
+      }
+    ]
+  },
+  "Purification Rites I": {
+    "type": "Spellcraft",
+    "element": "Fire",
+    "spells": [
+      {
+        "element": "Fire",
+        "lvl": "I",
+        "name": "Purification",
+        "effect": "Removes any number of Enchantments from the target. Removes Poisoned, Weakened, Petrified, Confused, Blinded States. The target of this Spell cannot be affected by enemy Enchantments until the End phase. If the target has the Undead Trait, it automatically suffers a Wound when hit by this Spell.",
+        "pw": "-",
+        "type": "Spell, Healing, Ranged",
+        "rch": "16",
+        "stk": "1"
+      }
+    ]
+  },
+  "Invocation I": {
+    "type": "Spellcraft",
+    "element": "Earth",
+    "spells": [
+      {
+        "element": "Earth",
+        "lvl": "I",
+        "name": "Overgrowth",
+        "effect": "Target gains +3 T.",
+        "pw": "-",
+        "type": "Spell, Enchantment, Ranged",
+        "rch": "16",
+        "stk": "2"
+      },
+      {
+        "element": "Earth",
+        "lvl": "I",
+        "name": "Regrowth",
+        "effect": "Target gains Regeneration I. Whenever a model regains 1 HP with this spell, the spell ends.",
+        "pw": "-",
+        "type": "Spell, Enchantment, Ranged",
+        "rch": "10",
+        "stk": "1"
+      }
+    ]
+  },
+  "Invocation II": {
+    "type": "Spellcraft",
+    "element": "Earth",
+    "spells": [
+      {
+        "element": "Earth",
+        "lvl": "I",
+        "name": "Overgrowth",
+        "effect": "Target gains +3 T.",
+        "pw": "-",
+        "type": "Spell, Enchantment, Ranged",
+        "rch": "16",
+        "stk": "2"
+      },
+      {
+        "element": "Earth",
+        "lvl": "I",
+        "name": "Regrowth",
+        "effect": "Target gains Regeneration I. Whenever a model regains 1 HP with this spell, the spell ends.",
+        "pw": "-",
+        "type": "Spell, Enchantment, Ranged",
+        "rch": "10",
+        "stk": "1"
+      },
+      {
+        "element": "Earth",
+        "lvl": "II",
+        "name": "Stone Skin",
+        "effect": "Target gains +3 ARM.",
+        "pw": "-",
+        "type": "Spell, Enchantment, Ranged",
+        "rch": "16",
+        "stk": "1"
+      },
+      {
+        "element": "Earth",
+        "lvl": "II",
+        "name": "Natural Fortitude",
+        "effect": "Target gains Resistance I (Spells).",
+        "pw": "-",
+        "type": "Spell, Enchantment, Ranged",
+        "rch": "16",
+        "stk": "1"
+      }
+    ]
+  },
+  "Invocation III": {
+    "type": "Spellcraft",
+    "element": "Earth",
+    "spells": [
+      {
+        "element": "Earth",
+        "lvl": "I",
+        "name": "Overgrowth",
+        "effect": "Target gains +3 T.",
+        "pw": "-",
+        "type": "Spell, Enchantment, Ranged",
+        "rch": "16",
+        "stk": "2"
+      },
+      {
+        "element": "Earth",
+        "lvl": "I",
+        "name": "Regrowth",
+        "effect": "Target gains Regeneration I. Whenever a model regains 1 HP with this spell, the spell ends.",
+        "pw": "-",
+        "type": "Spell, Enchantment, Ranged",
+        "rch": "10",
+        "stk": "1"
+      },
+      {
+        "element": "Earth",
+        "lvl": "II",
+        "name": "Stone Skin",
+        "effect": "Target gains +3 ARM.",
+        "pw": "-",
+        "type": "Spell, Enchantment, Ranged",
+        "rch": "16",
+        "stk": "1"
+      },
+      {
+        "element": "Earth",
+        "lvl": "II",
+        "name": "Natural Fortitude",
+        "effect": "Target gains Resistance I (Spells).",
+        "pw": "-",
+        "type": "Spell, Enchantment, Ranged",
+        "rch": "16",
+        "stk": "1"
+      },
+      {
+        "element": "Earth",
+        "lvl": "III",
+        "name": "Greater Cure",
+        "effect": "Removes Bleeding, Blinded, Confused, Crippled, Petrified, Poisoned, Slowed, Weakened States from allied models within the AoE.",
+        "pw": "-",
+        "type": "Spell, Healing, Ranged",
+        "rch": "16, Circular L",
+        "stk": "2"
+      },
+      {
+        "element": "Earth",
+        "lvl": "III",
+        "name": "Primordial Word",
+        "effect": "Targetless. During the Resolution Step (after all movements), Summoned, Undead, and models with the Profane or Divine Element affected by the AoE suffer 1 Wound and must be moved into base contact with the outer edge of the AoE. When a model with the Profane or Divine Element enters the AoE or spends an AP within it, that model suffers 1 Wound. Undead and Summoned models cannot enter the AoE. Only one Primordial Word AoE may be on the field per caster. If the caster moves outside the AoE, this spell is removed.",
+        "pw": "-",
+        "type": "Spell, Transmutation, Melee",
+        "rch": "0, Circular L",
+        "stk": "1"
+      }
+    ]
+  },
+  "Fencing I": {
+    "type": "Combat Art",
+    "levels": [
+      { "lvl": "I", "name": "Masterful Parry", "effect": "Target's Melee Attack suffers -3 Modifier." }
+    ]
+  },
+  "Fencing II": {
+    "type": "Combat Art",
+    "levels": [
+      { "lvl": "I", "name": "Masterful Parry", "effect": "Target's Melee Attack suffers -3 Modifier." },
+      { "lvl": "II", "name": "Harsh Riposte", "effect": "Target's Melee Attack suffers -1 STK (cannot be reduced below 1)." }
+    ]
+  },
+  "Fencing III": {
+    "type": "Combat Art",
+    "levels": [
+      { "lvl": "I", "name": "Masterful Parry", "effect": "Target's Melee Attack suffers -3 Modifier." },
+      { "lvl": "II", "name": "Harsh Riposte", "effect": "Target's Melee Attack suffers -1 STK (cannot be reduced below 1)." },
+      { "lvl": "III", "name": "Second Wind", "effect": "User's Melee Attack gains +1 STK." }
+    ]
+  },
+  "Fencing IV": {
+    "type": "Combat Art",
+    "levels": [
+      { "lvl": "I", "name": "Masterful Parry", "effect": "Target's Melee Attack suffers -3 Modifier." },
+      { "lvl": "II", "name": "Harsh Riposte", "effect": "Target's Melee Attack suffers -1 STK (cannot be reduced below 1)." },
+      { "lvl": "III", "name": "Second Wind", "effect": "User's Melee Attack gains +1 STK." },
+      { "lvl": "IV", "name": "Grapple & Thrash", "effect": "User's Melee Attack gains Knockdown." }
+    ]
+  },
+  "Archery I": {
+    "type": "Combat Art",
+    "levels": [
+      { "lvl": "I", "name": "Overdraw", "effect": "The first RCH interval of the used Ranged Weapon is increased by 6 inches." }
+    ]
+  },
+  "Archery II": {
+    "type": "Combat Art",
+    "levels": [
+      { "lvl": "I", "name": "Overdraw", "effect": "The first RCH interval of the used Ranged Weapon is increased by 6 inches." },
+      { "lvl": "II", "name": "Impeding Momentum", "effect": "If hit, the target becomes Slowed (State) until the end of the turn." }
+    ]
+  },
+  "Archery III": {
+    "type": "Combat Art",
+    "levels": [
+      { "lvl": "I", "name": "Overdraw", "effect": "The first RCH interval of the used Ranged Weapon is increased by 6 inches." },
+      { "lvl": "II", "name": "Impeding Momentum", "effect": "If hit, the target becomes Slowed (State) until the end of the turn." },
+      { "lvl": "III", "name": "Staggering Precision", "effect": "User's Ranged Attack gains Stagger." }
+    ]
+  }
+}

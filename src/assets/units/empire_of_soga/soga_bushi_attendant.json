@@ -1,0 +1,60 @@
+{
+  "id": "soga_bushi_attendant",
+  "name": "Bushi Attendant",
+  "faction": "Empire of Soga",
+  "cost": 13,
+  "limit": 3,
+  "size": "Medium",
+  "classes": ["Warrior"],
+  "stats": {
+    "STA": 2,
+    "SPD": 5,
+    "OFF": 12,
+    "DEF": 10,
+    "ACC": 12,
+    "INT": 10,
+    "AG": 10,
+    "T": 13,
+    "ARM": 4,
+    "HP": 2,
+    "M": 16
+  },
+  "traits": [],
+  "skills": [],
+  "combatArts": [],
+  "spellcrafts": [],
+  "inventory": [
+    {
+      "name": "Short Bow",
+      "effect": "Two-Handed.",
+      "pw": "T",
+      "rch": "0-20: 0 / 21-40: -6",
+      "stk": "STA",
+      "type": "Ranged, Weapon",
+      "qty": 1,
+      "wgt": 2
+    },
+    {
+      "name": "Short Sword",
+      "effect": "-",
+      "pw": "T",
+      "rch": "0",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 1
+    },
+    {
+      "name": "Dagger",
+      "effect": "Throwing. +1 STK when used against a model in Crouched State.",
+      "pw": "T-3",
+      "rch": "0",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 0
+    }
+  ],
+  "stratagems": [],
+  "special": null
+}

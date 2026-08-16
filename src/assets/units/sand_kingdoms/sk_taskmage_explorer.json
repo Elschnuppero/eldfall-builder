@@ -1,0 +1,47 @@
+{
+  "id": "sk_taskmage_explorer",
+  "name": "Taskmage Explorer",
+  "faction": "Sand Kingdoms",
+  "cost": 19,
+  "limit": 2,
+  "size": "Medium",
+  "classes": ["Wizard", "Mage"],
+  "stats": {
+    "STA": 2,
+    "SPD": 5,
+    "OFF": 8,
+    "DEF": 8,
+    "ACC": 8,
+    "INT": 14,
+    "AG": 12,
+    "T": 10,
+    "ARM": 0,
+    "HP": 1,
+    "M": 12
+  },
+  "traits": [
+    "Survival (Scorching)",
+    "Affinity (Elder)",
+    "Resourceful I"
+  ],
+  "skills": [
+    "Stealth I",
+    "Tracking"
+  ],
+  "combatArts": [],
+  "spellcrafts": ["Wizardry III"],
+  "inventory": [
+    {
+      "name": "Dagger",
+      "effect": "Throwing. +1 STK when used against a model in Crouched State.",
+      "pw": "T-3",
+      "rch": "0",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 0
+    }
+  ],
+  "stratagems": [],
+  "special": null
+}

@@ -1,0 +1,57 @@
+{
+  "id": "cot_slayer_dragoon",
+  "name": "Slayer Dragoon",
+  "faction": "Coalition of Thenion",
+  "cost": 17,
+  "limit": 2,
+  "size": "Medium",
+  "classes": ["Assassin", "Rider"],
+  "stats": {
+    "STA": 2,
+    "SPD": 6,
+    "OFF": 17,
+    "DEF": 8,
+    "ACC": 8,
+    "INT": 10,
+    "AG": 12,
+    "T": 12,
+    "ARM": 5,
+    "HP": 2,
+    "M": 15
+  },
+  "traits": [
+    "Advantage (Large, Huge, Colossal)"
+  ],
+  "skills": [
+    "Follow Up",
+    "Dash"
+  ],
+  "combatArts": [
+    "Assassination I"
+  ],
+  "spellcrafts": [],
+  "inventory": [
+    {
+      "name": "Slayer's Lance",
+      "effect": "Two-Handed, Unwieldy, Cleave, Knockback 1.",
+      "pw": "T+3",
+      "rch": "2",
+      "stk": "1",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 3
+    },
+    {
+      "name": "Short Sword",
+      "effect": "-",
+      "pw": "T",
+      "rch": "0",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 1
+    }
+  ],
+  "stratagems": [],
+  "special": "Rider: Can ride Lupus Rex. See Mounts — Advanced Rules for details."
+}

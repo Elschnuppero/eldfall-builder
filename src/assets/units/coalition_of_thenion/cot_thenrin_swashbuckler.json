@@ -1,0 +1,47 @@
+{
+  "id": "cot_thenrin_swashbuckler",
+  "name": "Thenrin Swashbuckler",
+  "faction": "Coalition of Thenion",
+  "cost": 16,
+  "limit": 3,
+  "size": "Medium",
+  "classes": ["Warrior", "Rogue"],
+  "stats": {
+    "STA": 2,
+    "SPD": 6,
+    "OFF": 15,
+    "DEF": 10,
+    "ACC": 10,
+    "INT": 11,
+    "AG": 13,
+    "T": 12,
+    "ARM": 3,
+    "HP": 2,
+    "M": 10
+  },
+  "traits": [
+    "Duelist"
+  ],
+  "skills": [
+    "Dash",
+    "Dual-Wield"
+  ],
+  "combatArts": [
+    "Fencing II"
+  ],
+  "spellcrafts": [],
+  "inventory": [
+    {
+      "name": "Short Sword",
+      "effect": "-",
+      "pw": "T",
+      "rch": "0",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 2,
+      "wgt": 1
+    }
+  ],
+  "stratagems": [],
+  "special": null
+}

@@ -1,0 +1,58 @@
+{
+  "id": "soga_onitaoshi",
+  "name": "Onitaoshi",
+  "faction": "Empire of Soga",
+  "cost": 21,
+  "limit": 2,
+  "size": "Medium",
+  "classes": ["Warrior", "Armsmaster"],
+  "stats": {
+    "STA": 2,
+    "SPD": 6,
+    "OFF": 16,
+    "DEF": 10,
+    "ACC": 8,
+    "INT": 10,
+    "AG": 10,
+    "T": 13,
+    "ARM": 6,
+    "HP": 3,
+    "M": 17
+  },
+  "traits": [
+    "Fearless",
+    "Advantage (Size: Large, Huge)"
+  ],
+  "skills": [
+    "Finishing Strike",
+    "Taunt"
+  ],
+  "combatArts": [
+    "Fencing III"
+  ],
+  "spellcrafts": [],
+  "inventory": [
+    {
+      "name": "Greatsword",
+      "effect": "Sweep I; Two-Handed; Bleed.",
+      "pw": "T+2",
+      "rch": "2",
+      "stk": "STA-1",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 3
+    },
+    {
+      "name": "Short Sword",
+      "effect": "-",
+      "pw": "T",
+      "rch": "0",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 1
+    }
+  ],
+  "stratagems": [],
+  "special": null
+}

@@ -1,0 +1,45 @@
+{
+  "id": "cot_lupus_rex",
+  "name": "Lupus Rex",
+  "faction": "Coalition of Thenion",
+  "cost": 5,
+  "limit": 2,
+  "size": "Huge",
+  "classes": ["Mount"],
+  "stats": {
+    "STA": "-",
+    "SPD": 9,
+    "OFF": "-",
+    "DEF": "+3",
+    "ACC": "-",
+    "INT": "-",
+    "AG": "-",
+    "T": "+2",
+    "ARM": "-2",
+    "HP": "+1",
+    "M": "-"
+  },
+  "traits": [
+    "Vigilance",
+    "Acute Senses"
+  ],
+  "skills": [
+    "Hit and Retreat"
+  ],
+  "combatArts": [],
+  "spellcrafts": [],
+  "inventory": [
+    {
+      "name": "Bite & Claws",
+      "effect": "-",
+      "pw": "13",
+      "rch": "0",
+      "stk": "2",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": "-"
+    }
+  ],
+  "stratagems": [],
+  "special": "Mount: When mounted by a Rider with 'Lupus Rex' on their profile, the stats marked with +/- are applied as modifiers to the Rider's base stats. The Mount's stats for SPD, ARM, and HP are added to the Rider's values."
+}

@@ -1,0 +1,37 @@
+{
+  "id": "sk_spelldancer_aeroturge",
+  "name": "Spelldancer Aeroturge",
+  "faction": "Sand Kingdoms",
+  "cost": 15,
+  "limit": 3,
+  "size": "Medium",
+  "classes": ["Enchanter", "Mage"],
+  "stats": {
+    "STA": 2,
+    "SPD": 6,
+    "OFF": 8,
+    "DEF": 8,
+    "ACC": 8,
+    "INT": 12,
+    "AG": 14,
+    "T": 8,
+    "ARM": 0,
+    "HP": 1,
+    "M": 12
+  },
+  "traits": [
+    "Affinity (Air, Elder)",
+    "Survival (Scorching)"
+  ],
+  "skills": [
+    "Charm I"
+  ],
+  "combatArts": [],
+  "spellcrafts": [
+    "Art of Enchanting III",
+    "Electromancy I"
+  ],
+  "inventory": [],
+  "stratagems": [],
+  "special": null
+}

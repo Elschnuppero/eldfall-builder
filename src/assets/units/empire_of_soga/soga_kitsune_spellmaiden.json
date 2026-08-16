@@ -1,0 +1,49 @@
+{
+  "id": "soga_kitsune_spellmaiden",
+  "name": "Kitsune Spellmaiden",
+  "faction": "Empire of Soga",
+  "cost": 16,
+  "limit": 2,
+  "size": "Medium",
+  "classes": ["Mystic"],
+  "stats": {
+    "STA": 2,
+    "SPD": 6,
+    "OFF": 8,
+    "DEF": 8,
+    "ACC": 8,
+    "INT": 14,
+    "AG": 14,
+    "T": 8,
+    "ARM": 1,
+    "HP": 1,
+    "M": 15
+  },
+  "traits": [
+    "Affinity (Fire)",
+    "Acute Senses",
+    "Vigilance"
+  ],
+  "skills": [
+    "Charm"
+  ],
+  "combatArts": [],
+  "spellcrafts": [
+    "Kitsune no Mai I",
+    "Purification Rites I"
+  ],
+  "inventory": [
+    {
+      "name": "Spirit Drum",
+      "effect": "When equipped, the allies within the user's Awareness do not suffer Morale penalties.",
+      "pw": "-",
+      "rch": "-",
+      "stk": "-",
+      "type": "Accessory",
+      "qty": 1,
+      "wgt": 1
+    }
+  ],
+  "stratagems": [],
+  "special": null
+}

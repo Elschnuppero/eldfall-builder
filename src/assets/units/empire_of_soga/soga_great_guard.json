@@ -1,0 +1,88 @@
+{
+  "id": "soga_great_guard",
+  "name": "Great Guard",
+  "faction": "Empire of Soga",
+  "cost": 23,
+  "limit": 2,
+  "size": "Medium",
+  "classes": ["Sentinel", "Warrior"],
+  "stats": {
+    "STA": 2,
+    "SPD": 4,
+    "OFF": 12,
+    "DEF": 16,
+    "ACC": 10,
+    "INT": 10,
+    "AG": 8,
+    "T": 13,
+    "ARM": 7,
+    "HP": 3,
+    "M": 17
+  },
+  "traits": [
+    "Vigilance",
+    "Watchful"
+  ],
+  "skills": [
+    "Impede"
+  ],
+  "combatArts": [
+    "Fencing IV"
+  ],
+  "spellcrafts": [],
+  "inventory": [
+    {
+      "name": "Polearm",
+      "effect": "Two-Handed, Sweep I.",
+      "pw": "T+3",
+      "rch": "2",
+      "stk": "STA-1",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 3
+    },
+    {
+      "name": "Sword",
+      "effect": "-",
+      "pw": "T",
+      "rch": "1",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 1
+    },
+    {
+      "name": "Piercing Dagger",
+      "effect": "Armor-Piercing. +1 STK when used against a model in Crouched state.",
+      "pw": "T-2",
+      "rch": "0",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": "-"
+    }
+  ],
+  "stratagems": [
+    {
+      "name": "Break the Offensive",
+      "type": "Authority",
+      "effect": "Warriors and Soldiers gain +3 DEF."
+    },
+    {
+      "name": "Close Ranks",
+      "type": "Authority",
+      "effect": "Each Allied model receives +1 ARM for every other Allied model in Base contact. Warriors and Soldiers gain Vigilance."
+    },
+    {
+      "name": "Overcome Pain",
+      "type": "Authority",
+      "effect": "Target Warrior not in Incapacitated State may regain 1 HP."
+    },
+    {
+      "name": "Rally Troops (Soga)",
+      "type": "Authority",
+      "effect": "Models gain Fearless and may cancel up to 1 State (Except Dead, Engaged or Incapacitated)."
+    }
+  ],
+  "special": null
+}

@@ -1,0 +1,65 @@
+{
+  "id": "hl_flameweaver_noble",
+  "name": "Flameweaver Noble",
+  "faction": "Helian League",
+  "cost": 21,
+  "limit": 2,
+  "size": "Medium",
+  "classes": ["Mage", "Enchanter"],
+  "stats": {
+    "STA": 2,
+    "SPD": 5,
+    "OFF": 8,
+    "DEF": 10,
+    "ACC": 8,
+    "INT": 14,
+    "AG": 12,
+    "T": 8,
+    "ARM": 3,
+    "HP": 2,
+    "M": 12
+  },
+  "traits": [
+    "Affinity (Fire)"
+  ],
+  "skills": [],
+  "combatArts": [],
+  "spellcrafts": [
+    "Art of Sorcery III",
+    "Art of Enchanting III"
+  ],
+  "inventory": [
+    {
+      "name": "Sword",
+      "effect": "-",
+      "pw": "T",
+      "rch": "1",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 1
+    },
+    {
+      "name": "Dagger",
+      "effect": "Throwing. +1 STK when used against a model in Crouched State.",
+      "pw": "T-3",
+      "rch": "0",
+      "stk": "STA",
+      "type": "Melee, Weapon",
+      "qty": 1,
+      "wgt": 0
+    },
+    {
+      "name": "Scepter of Sorceries",
+      "effect": "When casting Sorceries in the Active Role, the wearer may reroll 1 die.",
+      "pw": "-",
+      "rch": "-",
+      "stk": "-",
+      "type": "Accessory",
+      "qty": 1,
+      "wgt": 1
+    }
+  ],
+  "stratagems": [],
+  "special": null
+}
